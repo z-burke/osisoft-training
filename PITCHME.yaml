@@ -3,9 +3,16 @@ footnote: "Radix OSIsoft Power User Training"
 
 # Published settings
 published: true
+
+# Tokens
 confidential: topnotch
+
+# Lock screen customizations.
 pro-background: none
 pro-background-color: "#3B0E68"
+pro-title: "PI Asset Framework User Training"
+pro-logo: assets/img/radix-logo.png
+
 
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
 
