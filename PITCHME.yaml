@@ -4,7 +4,8 @@ footnote: "Radix OSIsoft Power User Training"
 # Published settings
 published: true
 confidential: topnotch
-pro-background: "#3B0E68"
+pro-background: none
+pro-background-color: "#3B0E68"
 
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
 
