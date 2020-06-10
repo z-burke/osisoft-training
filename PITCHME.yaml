@@ -1,5 +1,5 @@
 footnote: "Radix OSIsoft Power User Training"
-theme-override   : assets/css/PITCHME.css
+# theme-override   : assets/css/PITCHME.css
 
 # Published settings
 published: true
