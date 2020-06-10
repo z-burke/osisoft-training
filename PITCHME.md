@@ -16,7 +16,7 @@ I see you!
 
 ---
 @snap[north]
-### Objective
+### Objectivea
 @snapend
 
 By the end of this training session, you should:
