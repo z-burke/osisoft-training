@@ -1,0 +1,1 @@
+docker run -it -v "$($(Get-Location).Path):/repo" --name "GitPitch" -p 9000:9000 -e PORT=9000 gitpitch/desktop:pro
