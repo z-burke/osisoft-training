@@ -1,8 +1,21 @@
-/* div {
-    color: red;
-} */
+/* Front page */
 
-/* .green-emphasis {
+.imagebg {
+    padding: 0;
+  }
+  
+  #pro-logo {
+    margin: 60px;
+  }
+
+#pro-enter {
+    background-color: #739900; 
+    border: none;
+}
+
+/* Main Presentation */
+
+.green-emphasis {
     color: #99CC00;
     font-weight: bolder;
 }
@@ -14,4 +27,4 @@
 
 img {
     margin-bottom: 50px !important;
-} */
+}

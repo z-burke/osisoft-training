@@ -1,5 +1,5 @@
 footnote: "Radix OSIsoft Power User Training"
-
+theme-override   : assets/css/PITCHME.css
 
 # Published settings
 published: true
@@ -11,9 +11,18 @@ confidential: topnotch
 pro-background: none
 pro-background-color: "#3B0E68"
 pro-title: "PI Asset Framework User Training"
+pro-subtitle: "Training provided by Radix Engineering and Software"
+pro-contact: "Problems? Contact zachary.burke@radixeng.com"
 pro-logo: assets/img/radix-logo.png
 
-
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
-
-# # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-END
+theme            : template
+theme-headline   : [ "Ubuntu", "#3B0E68", "none", "#5289F7", "100", "130", "15" ]
+theme-byline     : [ "Ubuntu", "#3B0E68", "none", "#111111", "100", "120", "15" ]
+theme-text       : [ "Roboto", "#1C1C1C", "none", "#1C1C1C", "100", "110", "15" ]
+theme-links      : [ "#5289F7", "#5254F7" ]
+highlight        : hybrid
+theme-controls   : [ "#484848" ]
+theme-margins    : [ "15px", "15px" ]
+layout           : center-left
+# PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-END
