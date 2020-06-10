@@ -1,6 +1,7 @@
 footnote: "Radix OSIsoft Power User Training"
 theme-override   : assets/css/PITCHME.css
 
+published:true
 confidential : 54321
 
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
