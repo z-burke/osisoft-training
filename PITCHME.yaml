@@ -2,7 +2,7 @@ audio-deck: 20
 footnote: "Radix OSIsoft Power User Training"
 theme-override   : assets/css/PITCHME.css
 
-confidential: topnotch
+confidential : 54321
 
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
 theme            : template
