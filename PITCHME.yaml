@@ -17,10 +17,12 @@ pro-logo: assets/img/radix-logo.png
 
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
 theme            : template
-theme-headline   : [ "Ubuntu", "#3B0E68", "none", "#5289F7", "100", "130", "15" ]
-theme-byline     : [ "Ubuntu", "#3B0E68", "none", "#111111", "100", "120", "15" ]
-theme-text       : [ "Roboto", "#1C1C1C", "none", "#1C1C1C", "100", "110", "15" ]
+theme-background : [ "#FFF" ]
+theme-headline   : [ "Roboto", "#3B0E68", "none", "#5289F7", "90", "130", "15" ]
+theme-byline     : [ "Roboto", "#3B0E68", "none", "#111111", "90", "120", "15" ]
+theme-text       : [ "Lato", "#1C1C1C", "none", "#1C1C1C", "90", "110", "15" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
 highlight        : hybrid
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "15px", "15px" ]
