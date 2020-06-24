@@ -1,4 +1,6 @@
+@snap[west]
 ## Attributes and Their Data References
+@snapend
 
 +++
 

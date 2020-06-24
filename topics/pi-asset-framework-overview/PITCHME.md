@@ -1,24 +1,30 @@
+@snap[west]
 ## PI Asset Framework Overview
+@snapend
 
 +++
 
-@snap[north-west]
 ### Asset Framework
+@snap[null]
 Asset framework organizes a collection of tags into a **hiearchy of assets**.
-@ul[text-08 span-35](false)
+@snapend
+@snap[content]
+@snap[content-10]
+@ul[text-08](false)
 - **Assets** are represented by **elements**.
 - **Data streams** (PI Tags) pertaining to those elements are represented by **attributes**.
 @ulend
 @snapend
-@snap[east span-60]
-<br><br><br>
-![IMAGE](assets/img/element-to-attribute.png)
+@snap[content-12]
+![](assets/img/element-to-attribute.png)
+@snapend
 @snapend
 
 +++
 
-@snap[north-west]
 ### Connections to AF Servers and Data Archives in PSE
+@snap[content]
+@snap[content-10]
 Two types of connections:
 @ul[text-08](false)
 - Data Archive
@@ -30,15 +36,16 @@ Each of these can have a status:
 - Default
 @ulend
 @snapend
-@snap[east span-50]
-<br><br><br>
-![IMAGE](assets/img/pse-server-connections.png)
+@snap[content-10]
+![](assets/img/pse-server-connections.png)
+@snapend
 @snapend
 
 +++
 
-@snap[north-west]
 ### Tabs in PI System Explorer
+@snap[content]
+@snap[content-10]
 @ul[text-07](false)
 - **Elements**<br>Asset hierarchy
 - **Event Frames**<br>Recorded Event Frames
@@ -48,15 +55,17 @@ Each of these can have a status:
 - **Management**<br>List of AF Analyses
 @ulend
 @snapend
-@snap[east]
-<br><br><br>
+@snap[content-10 flex-center-y]
 ![IMAGE](assets/img/pi-system-explorer-tabs.png)
+@snapend
+@snapend
 
 +++
 
-@snap[north-west]
 ### Asset Framework Databases
-@ul[text-08 span-45](false)
+@snap[content]
+@snap[content-10]
+@ul[text-08](false)
 - AF DAtabases provide **isolation between AF hierarchies**.
 - Can have multiple AF Databases on an individual AF Server.
 - AF Databases on the same server will still have access to the same:
@@ -64,9 +73,9 @@ Each of these can have a status:
     - UOM's
 @ulend
 @snapend
-@snap[east span-55]
-<br><br><br>
-![IMAGE](assets/img/pse-databases.png)
+@snap[content-10 flex-center-y]
+![](assets/img/pse-databases.png)
+@snapend
 @snapend
 
 +++

@@ -1,4 +1,6 @@
+@snap[west]
 ## AF Analytics - Introduction
+@snapend
 
 +++
 

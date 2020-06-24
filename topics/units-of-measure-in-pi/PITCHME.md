@@ -1,4 +1,6 @@
+@snap[west]
 ## Units of Measure in PI
+@snapend
 
 +++
 

@@ -1,4 +1,6 @@
+@snap[west]
 ## Configuring AF Attributes
+@snapend
 
 +++
 

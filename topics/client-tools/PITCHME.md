@@ -1,11 +1,14 @@
+@snap[west]
 ## Client Tools
+@snapend
 
 +++
 
-@snap[north-west]
 ### Client Tools for the PI System
+@snap[content]
+@snap[content-10]
 The software you'll use to use and manage data in PI.
-@ul[text-09 list](false)
+@ul[text-09](false)
 - PI System Management Tools (SMT)
 - PI System Explorer (PSE)
 - PI Vision
@@ -14,12 +17,14 @@ The software you'll use to use and manage data in PI.
     - DataLink
 @ulend
 @snapend
+@snapend
 
 +++
 
-@snap[north-west]
 ### PI System Management Tools
-@ul[text-09 list](false)
+@snap[content]
+@snap[content-10]
+@ul[text-09](false)
 - Data Archive management
 - Tag building and configuration
 - "Lower-level" security
@@ -27,15 +32,17 @@ The software you'll use to use and manage data in PI.
 - General IT stuff
 @ulend
 @snapend
-@snap[east]
-![IMAGE](assets/img/smt-screenshot.png)
+@snap[content-10]
+![](assets/img/smt-screenshot.png)
+@snapend
 @snapend
 
 +++
-@snap[north-west]
-### PI System Explorer
 
-@ul[text-09 list](false)
+### PI System Explorer
+@snap[content]
+@snap[content-10]
+@ul[text-09](false)
 - Management of AF hierarchy
     - Elements
     - Attributes
@@ -48,13 +55,13 @@ The software you'll use to use and manage data in PI.
 @ulend
 We will be spending most of our time here.
 @snapend
-@snap[east]
+@snap[content-10]
 ![IMAGE](assets/img/pi-system-explorer.png)
+@snapend
 @snapend
 
 +++
 
-@snap[north-west]
 ### PI Vision
 @ul[text-09 list](false)
 @ulend
