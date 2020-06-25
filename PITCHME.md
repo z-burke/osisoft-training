@@ -49,6 +49,14 @@ By the end of this training session, you should:
 
 ---
 
+### What We'll Cover2
+
+@snap[content]
+![](assets\img\course-outline.png)
+@snapend
+
+---
+
 ### How to Use This Course
 
 

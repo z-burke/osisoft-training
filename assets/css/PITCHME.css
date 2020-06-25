@@ -45,6 +45,10 @@ border: none;
     /* align-items: center; */
 }
 
+.content * {
+    flex-shrink: 1;
+}
+
 .content-05 { flex: 0.5; }
 .content-10 { flex: 1; }
 .content-11 { flex: 1.1; }
