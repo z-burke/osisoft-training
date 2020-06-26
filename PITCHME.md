@@ -50,9 +50,8 @@ By the end of this training session, you should:
 ---
 
 ### What We'll Cover2
-
-@snap[content]
-![](assets\img\course-outline.png)
+@snap[]
+![height=400 width=100%](assets\img\course-outline.png)
 @snapend
 
 ---
@@ -77,6 +76,10 @@ By the end of this training session, you should:
 ---?include=topics/units-of-measure-in-pi/PITCHME.md
 
 ---?include=topics/af-analytics-introduction/PITCHME.md
+
+---?include=topics/af-notifications/PITCHME.md
+
+---?include=topics/af-templates/PITCHME.md
 
 ---
 

@@ -46,7 +46,7 @@ border: none;
 }
 
 .content * {
-    flex-shrink: 1;
+    flex-shrign
 }
 
 .content-05 { flex: 0.5; }
