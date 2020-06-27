@@ -81,6 +81,10 @@ By the end of this training session, you should:
 
 ---?include=topics/af-templates/PITCHME.md
 
+---?include=topics/element-reference-types/PITCHME.md
+
+---?include=topics\af-best-practices\PITCHME.md
+
 ---
 
 ![](https://www.youtube.com/embed/0iO3Xu0lbTk)
