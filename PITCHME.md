@@ -67,6 +67,8 @@ By the end of this training session, you should:
 
 ---?include=topics/client-tools/PITCHME.md
 
+---?include=topics\pi-points\PITCHME.md
+
 ---?include=topics/pi-asset-framework-overview/PITCHME.md
 
 ---?include=topics/attributes-and-their-data-references/PITCHME.md

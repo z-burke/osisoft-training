@@ -8,14 +8,23 @@
 @snap[content]
 @snap[content-10]
 The software you'll use to use and manage data in PI.
-@ul[text-09](false)
+@ul[](false)
 - PI System Management Tools (SMT)
 - PI System Explorer (PSE)
-- PI Vision
+- Web browser (Chrome, FireFox, Edge, etc.)
 - Microsoft Excel (through Add-ins)
     - PI Builder
     - DataLink
 @ulend
+@snapend
+@snapend
+
++++
+
+### Client Tools for the PI System
+@snap[content]
+@snap[content-10]
+![](assets\img\client-tools.png)
 @snapend
 @snapend
 
@@ -42,7 +51,7 @@ The software you'll use to use and manage data in PI.
 ### PI System Explorer
 @snap[content]
 @snap[content-10]
-@ul[text-09](false)
+@ul[](false)
 - Management of AF hierarchy
     - Elements
     - Attributes
@@ -62,33 +71,29 @@ We will be spending most of our time here.
 
 +++
 
-### PI Vision
-@ul[text-09 list](false)
+### Web Browser
+@snap[content]
+@snap[content-10]
+@ul[](false)
 @ulend
 @snapend
-@snap[east]
-![IMAGE]()
+@snap[content-10]
+![]()
+@snapend
 @snapend
 
 +++
 
-@snap[north-west]
-### Excel: PI DataLink
-@ul[text-09 list](false)
+### Microsoft Excel Add-ins
+@snap[content text-center]
+@snap[content-10]
+##### DataLink
+@ul[](false)
 @ulend
 @snapend
-@snap[east]
-![IMAGE]()
+@snap[content-10]
+##### PI Builder
+@snapend
 @snapend
 
-+++
-
-@snap[north-west]
-### Excel: PI Builder
-@ul[text-09 list](false)
-@ulend
-@snapend
-@snap[east]
-![IMAGE]()
-@snapend
 
