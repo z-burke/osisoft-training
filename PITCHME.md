@@ -15,7 +15,7 @@ I see you!
 @snap[content]
 @snap[content-10]
 By the end of this training session, you should:
-@ul[text-09](false)
+@ul[](false)
 - Have a general knowledge of the PI System
 - Be comfortable modifying asset hiearchies and analyses in PI Asset Framework
 - Understand best practices for managing the PI System in production

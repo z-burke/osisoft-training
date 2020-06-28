@@ -15,17 +15,19 @@ pro-subtitle: "Training provided by Radix Engineering and Software"
 pro-contact: "Problems? Contact zachary.burke@radixeng.com"
 pro-logo: assets/img/radix-logo.png
 
+
+highlight        : googlecode
+
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
 theme            : template
 theme-background : [ "#FFF" ]
-theme-headline   : [ "Roboto", "#3B0E68", "none", "#5289F7", "90", "130", "15" ]
+theme-headline   : [ "Roboto", "#3B0E68", "none", "#5289F7", "90", "100", "15" ]
 theme-byline     : [ "Roboto", "#3B0E68", "none", "#111111", "90", "120", "15" ]
 theme-text       : [ "Lato", "#1C1C1C", "none", "#1C1C1C", "90", "110", "15" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
-theme-code       : [ "Source Code Pro", "100", "120" ]
+theme-code       : [ "Source Code Pro", "100", "120"]
+highlight        : googlecode
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "15px", "15px" ]
 layout           : center-left
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-END
-
-highlight        : googlecode
