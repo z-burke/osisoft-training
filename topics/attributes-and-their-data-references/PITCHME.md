@@ -89,9 +89,3 @@ Each attribute points to **1** data reference. There are **6 types**:
 ![](assets/img/pse-uri-data-reference.png)
 @snapend
 
-+++
-
-### Categories
-
-+++
-

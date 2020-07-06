@@ -171,6 +171,8 @@ You are seeing a **snapshot** of the data. Change your view by setting the **que
 +++
 
 ### Viewing Attribute Data
+@snap[content]
+@snap[flex-10]
 Right-click on an attribute to bring up the following options for visualizing data:
 @ul[](false)
 - **Trend**<br>View a graph of attribute data over time (supports multiple attributes).
@@ -178,44 +180,48 @@ Right-click on an attribute to bring up the following options for visualizing da
 @ulend
 PSE is not primarily a visualization tool, but this feature is useful!
 @snapend
-@snap[east span-50]
-<br><br><br><br>
-![IMAGE](assets/img/pse-viewing-data.png)
+@snap[flex-10]
+![](assets/img/pse-viewing-data.png)
+@snapend
 @snapend
 
 +++
 
-@snap[north-west]
 ### Viewing PI Points in PSE
-@snap[span-50]
+@snap[content flex-10]
+@snap[flex-10]
 PSE provides a way to search for PI Points.
 From here you can see:
-@ul[text-08](false)
+@ul[](false)
 - Configuration information
 - Timeseries data and trends
 @ulend
 @snapend
+@snap[flex-10 flex-center]
+![](assets/img/pse-tag-search.png)
 @snapend
-@snap[east span-55]
-<br><br><br><br>
-![IMAGE](assets/img/pse-tag-search.png)
 @snapend
 
 +++
 
-@snap[north-west]
 ### Asset Framework's Transaction Model
-@css[text-center](With many people touching the same AF Database, how do we prevent them from making conflicting changes?)
+@snap[content]
+@snap[flex-10]
+With many people touching the same AF Database, how do we prevent them from making conflicting changes?
 @snapend
-@snap[south span-100]
+@snapend
+@snap[content flex-10]
+@snap[flex-10 flex-center]
 ![height=250](assets/img/af-transaction-model.png)
 @snapend
+@snapend
 
 +++
 
-@snap[north-west]
 ### Asset Framework's Transaction Model
-@ul[text-09](false)
+@snap[content]
+@snap[flex-10]
+@ul[text-11](false)
 - This transaction model **largely revolves around AF Elements**:
     - checking them out
     - making changes to them
@@ -224,28 +230,34 @@ From here you can see:
 - Other objects we'll cover here can be checked out as well (tables, templates, etc.).
 @ulend
 @snapend
+@snapend
 
 +++
 
-@snap[north-west]
 ### Asset Framework's Transaction Model
-@ul[text-09 span-50](false)
+@snap[content]
+@snap[flex-10]
+@ul[text-11](false)
 - Elements' transaction status can be see in the AF Hiearchy
     - **Current user has checked out**<br>(Check in to save changes)
     - **Another user has checked out**<br>(Cannot make changes)
 @ulend
 @snapend
-@snap[east]
-<br><br><br>
-![IMAGE](assets/img/pse-checked-out-elements-example.png)
+@snap[flex-10]
+![](assets/img/pse-checked-out-elements-example.png)
+@snapend
 @snapend
 
 +++
 
-@snap[north-west]
 ### AF: More Than Just Organization
+@snap[content]
+@snap[flex-10]
 Asset Framework provides more than just organization:
 @ul[](false)
-- Allows for inclusion of metadata for assets and their data.
-- Coupled with an analysis engine for performing calculations on attribute data.
-- Allows for connecting more than just tag data into PI (i.e. SQL data)
+- Allows for **inclusion of metadata** for assets and their data.
+- Coupled with an **analysis engine** for performing calculations on attribute data.
+- Allows for connecting **more than just tag data** into PI (i.e. SQL data)
+@ulend
+@snapend
+@snapend
