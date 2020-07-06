@@ -6,7 +6,7 @@
 
 ### Two Types of Data
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 **Operational**
 @ul[](false)
 - Directly measurable quantities
@@ -16,7 +16,7 @@
     - Temperature
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 **Strategic**
 @ul[](false)
 - Calculated quantities
@@ -44,7 +44,7 @@ It can store the results of these calculations in **PI Points** right alongside 
 
 ### Analyses vs. Forumulas
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 Analyses:
 @ul[](false)
 - provide a more **powerful syntax**.
@@ -60,7 +60,7 @@ Analyses:
 
 ### 4 Types of Analyses
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Expressions
 - Rollups
@@ -68,7 +68,7 @@ Analyses:
 - SQC
 @ulend
 @snapend
-@snap[content-15 flex-center-y]
+@snap[flex-15 flex-center-y]
 ![](assets\img\pse-analyses-types.png)
 @snapend
 @snapend
@@ -77,12 +77,12 @@ Analyses:
 
 ### Expressions
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 Can perform calculations whose results are **output to attributes**.
 <br>
 @css[text-08]((Will write to a PI Point if the attribute has a PI Point Data Reference.))
 @snapend
-@snap[content-10 flex-center-y]
+@snap[flex-10 flex-center-y]
 ![](assets\img\pse-expressions.png)
 @snapend
 @snapend
@@ -127,12 +127,12 @@ Int('*'- ParseTime(Concat("T +",Hour('*'),"h")))/60
 
 ### Expressions Included Function Help
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 All of the functions available available to use are listed in the panel at the bottom-right hand corner of the screen.
 <br>
 Also **provides descriptions** and **instructions for use**.
 @snapend
-@snap[content-10 text-center]
+@snap[flex-10 text-center]
 ![](assets\img\pse-function-help.png)
 @snapend
 
@@ -140,7 +140,7 @@ Also **provides descriptions** and **instructions for use**.
 
 ### Expressions: Help Referencing Attributes
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 Referencing attributes can be tricky.
 The help panel also gives us a way of **finding references** to specific attributes.
 @ul[](false)
@@ -148,7 +148,7 @@ The help panel also gives us a way of **finding references** to specific attribu
 - Relative paths
 @ulend
 @snapend
-@snap[content-10 text-center]
+@snap[flex-10 text-center]
 ![](assets\img\pse-analysis-attribute-help.png)
 @snapend
 @snapend
@@ -157,7 +157,7 @@ The help panel also gives us a way of **finding references** to specific attribu
 
 ### Rollups
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Rollups perform calculations on a **variable number of child elements** such as:
     - Sum
@@ -167,7 +167,7 @@ The help panel also gives us a way of **finding references** to specific attribu
 - Like expressions, outputs results to AF Attribute.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-rollup.png)
 @snapend
 
@@ -176,14 +176,14 @@ The help panel also gives us a way of **finding references** to specific attribu
 ### Event Frames
 
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Event Frames provide a way to **“bookmark”** interesting points of time (events).
 - Are generated based on a defined set of **triggers**.
 - Can collect attributes of interest using Event Frame Templates.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-eventframes.png)
 @snapend
 @snapend
@@ -204,7 +204,7 @@ An End Trigger doesn't have to be defined...
 ### Event Frames - Templates
 
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Event Frame Templates specify:
     - What **attributes** should be associated with an Event Frame
@@ -213,7 +213,7 @@ An End Trigger doesn't have to be defined...
     - The template can be empty… it **just has to exist**!
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-eventframe-templates.png)
 @snapend
 @snapend
@@ -222,12 +222,12 @@ An End Trigger doesn't have to be defined...
 
 ### Viewing Recorded Event Frames
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Recorded Event Frames can be viewed from the “Event Frames” tab in PSE.
 - Can perform searches to filter results.
 @snapend
-@snap[content-12]
+@snap[flex-12]
 ![](assets\img\pse-eventframe-list.png)
 @snapend
 @snapend
@@ -236,7 +236,7 @@ An End Trigger doesn't have to be defined...
 
 ### SQC (Statistical Quality Control)
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[text-08](false)
 - SQC defines allowable **deviances** from a desired **operating range** of an attribute.
 - Deviances can be recorded to:
@@ -253,7 +253,7 @@ An End Trigger doesn't have to be defined...
 
 ### Triggering Analyses
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Analyses can trigger based on two types of triggers:
     - **Periodic**: Runs at a set interval.
@@ -261,7 +261,7 @@ An End Trigger doesn't have to be defined...
         - Can select which inputs can act as a trigger.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-analysis-triggering.png)
 @snapend
 
@@ -269,14 +269,14 @@ An End Trigger doesn't have to be defined...
 
 ### Backfilling
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - What happens if we make a change an analysis?
     - There will be an artificial **inflection point** in the data from the moment of change!
 - We can have an analysis rewrite tag history / recreate Event Frames by **backfilling**.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-analysis-backfilling.png)
 @snapend
 @snapend
@@ -285,14 +285,14 @@ An End Trigger doesn't have to be defined...
 
 ### Managing Analyses
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - A list of all analyses in an AF database can be found in the Management tab.
 - Can filter view based on search criteria.
 - Can turn analyses on/off, backfill them.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-managing-analyses.png)
 @snapend
 @snapend
@@ -301,7 +301,7 @@ An End Trigger doesn't have to be defined...
 
 ### Creating Output PI Points for Analysis Attributes
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - PI AF can create referenced PI Points.
 - Attribute’s data reference settings become PI Point’s configuration.
@@ -309,7 +309,7 @@ An End Trigger doesn't have to be defined...
 - Triggered by<br>**“Create or Update PI Point”**
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-analysis-create-pi-point.png)
 @snapend
 @snapend
@@ -318,7 +318,7 @@ An End Trigger doesn't have to be defined...
 
 ### Beyond AF Analytics
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 AF Analyses strike a balance between power and manageability. But can also be somewhat limiting. What happens if we want to perform calculations that:
 @ul[](false)
 - Use functions **not provided** to us via AF?
@@ -332,7 +332,7 @@ AF Analyses strike a balance between power and manageability. But can also be so
 
 ### Beyond AF Analytics
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 When AF Analytics are not enough, we can read from and write back to the PI System through two different pathways:
 @ul[](false)
 - **PI Web API**: Provides read/write access to PI data over the web (http).

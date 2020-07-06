@@ -6,7 +6,7 @@
 
 ### Client Tools for the PI System
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 The software you'll use to use and manage data in PI.
 @ul[](false)
 - PI System Management Tools (SMT)
@@ -22,8 +22,8 @@ The software you'll use to use and manage data in PI.
 +++
 
 ### Client Tools for the PI System
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10 flex-center]
 ![](assets\img\client-tools.png)
 @snapend
 @snapend
@@ -31,17 +31,17 @@ The software you'll use to use and manage data in PI.
 +++
 
 ### PI System Management Tools
-@snap[content]
-@snap[content-10]
-@ul[text-09](false)
+@snap[content flex-10]
+@snap[flex-10]
+@ul[](false)
 - Data Archive management
 - Tag building and configuration
 - "Lower-level" security
 - Interface management
-- General IT stuff
+- General IT tasks
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-12 flex-center]
 ![](assets/img/smt-screenshot.png)
 @snapend
 @snapend
@@ -50,7 +50,7 @@ The software you'll use to use and manage data in PI.
 
 ### PI System Explorer
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Management of AF hierarchy
     - Elements
@@ -62,37 +62,48 @@ The software you'll use to use and manage data in PI.
 - Connecting to external data sources
 - "Higher-level" security
 @ulend
-We will be spending most of our time here.
 @snapend
-@snap[content-10]
-![IMAGE](assets/img/pi-system-explorer.png)
+@snap[flex-10]
+![](assets/img/pi-system-explorer.png)
+@snapend
+@snapend
+@snap[content]
+@snap[flex-10 text-center green-emphasis]
+We will be spending most of our time here.
 @snapend
 @snapend
 
 +++
 
-### Web Browser
-@snap[content]
-@snap[content-10]
+### Web Browser (PI Vision)
+@snap[content flex-10]
+@snap[flex-10]
 @ul[](false)
+- Visualization tool for PI System data
+- Build and share dashboards
+- Take full advantage of AF features
+- Ad hoc displays
+- Accessible from any browser (including mobile devices)
 @ulend
 @snapend
-@snap[content-10]
-![]()
+@snap[flex-10 flex-center]
+![](assets/img/pi-vision.png)
 @snapend
 @snapend
 
 +++
 
 ### Microsoft Excel Add-ins
-@snap[content text-center]
-@snap[content-10]
+@snap[content flex-10 text-center flex-center]
+@snap[flex-10]
 ##### DataLink
-@ul[](false)
-@ulend
+Create Excel reports with PI System data.
+![](assets/img/excel-datalink.png)
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ##### PI Builder
+Manage PI Points and AF Hierarchies with Excel.
+![](assets/img/excel-pi-builder.png)
 @snapend
 @snapend
 

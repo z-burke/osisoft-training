@@ -6,7 +6,7 @@
 
 ### Store the Data Archive Name as an Attribute
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Using the substitution syntax *%Server%* will take the **client machine’s default Data Archive**.
     - This can cause problems when multiple Data Archives are being referenced in one hierarchy.
@@ -23,7 +23,7 @@
 
 ### Associate Every Element to a Template
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Templates make AF much easier to manage at scale.<br>…but having a **mix of template-based and standalone elements creates confusion** and can make management difficult.
 - For this reason, we have **every element associated with a template**, even if there will be only one element for a given template.
@@ -35,7 +35,7 @@
 
 ### Never Allow Extensions to Templates!
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Allowing extensions to templates allows attributes to be defined in **both the template and directly within the element**.
     - Difficult to track where attributes are coming from.
@@ -43,7 +43,7 @@
 - If an attribute is truly unique to an element, **create another child template**, instead.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-template-extensions.png)
 @snapend
 @snapend
@@ -52,7 +52,7 @@
 
 ### Don't Create Large AF Tables
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Every time a table is accessed, the entire table must be loaded.
 - Best practice is to keep tables to less than **10,000 rows**.
@@ -64,7 +64,7 @@
 
 ### Mapping Tags to Attributes - Other Strategies
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Store tag names in an **AF Table**
     - Can pose problems if the table contains more than 10,000 tags.
@@ -84,7 +84,7 @@
 
 ### Use More Analyses with Fewer Variables
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Try to create analyses that only do “one thing” (i.e. are **mapped to one output attribute**.)
     - Makes it easier to understand what analyses actually do.
@@ -92,7 +92,7 @@
 - Tradeoff: sometimes we group calculations together to **avoid recreating the same variables**.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-analysis-shared-variables.png)
 @snapend
 @snapend
@@ -101,7 +101,7 @@
 
 ### Analysis Triggering
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Analyses should only run **as frequently as needed**.
     - Typically range between once every 15 seconds to once every 24 hours.
@@ -116,7 +116,7 @@
 
 ### Store Results of Analyses in PI Points
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - If an attribute is populated by an analysis, the analysis will be **rerun every time that attribute is referenced**.
     - All its input attributes will need to be resolved as well.
@@ -132,7 +132,7 @@
 
 ### Checking for Bad Values in Analyses
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - **Real data has gaps** in it that can cause analyses to:
     - Produce nonsensical data.
@@ -151,7 +151,7 @@ Else NoOutput()
 
 ### Perform Analyses Close to Source, Reference Elsewhere
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - If an analysis needs to be created that runs only on data in a spot deeper in the hierarchy, **try to create the analysis at a lower level, then reference it from upper levels**.
 - Avoids inadvertently recreating analyses in multiple areas of the hierarchy.
@@ -163,13 +163,13 @@ Else NoOutput()
 
 ### Auditing Analysis Performance - Viewing Statistics
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Right-clicking on the Operations panel from within the Management tab provides access **to analysis service statistics**.
 - Statistics are gathered since the last time the analysis service (or the machine it’s on) is reset.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-analysis-statistics.png)
 @snapend
 @snapend
@@ -178,13 +178,13 @@ Else NoOutput()
 
 ### Auditing Analysis Performance - Viewing Statistics
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Right-clicking on the Operations panel from within the Management tab provides access **to analysis service statistics**.
 - Statistics are gathered since the last time the analysis service (or the machine it’s on) is reset.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-analysis-statistics.png)
 @snapend
 @snapend
@@ -193,7 +193,7 @@ Else NoOutput()
 
 ### Auditing Analyses Performance - Statistics Menu
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Can see statistics for each analysis:
     - **AverageLagMilliSeconds**: Amount of time between when an analysis is triggered and when it produces an output (input resolution and exectuion).
@@ -202,7 +202,7 @@ Else NoOutput()
 - Load shedding kicks in when TriggerMilliSeconds is greater than LagMilliSeconds.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-analysis-statistics-menu.png)
 @snapend
 @snapend
@@ -211,14 +211,14 @@ Else NoOutput()
 
 ### Managing Tag Creation and Config Through AF Tempaltes
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - If creating PI Points based on a template, **substitution syntax can be used to define their names** in the context of the elements they pertain to.
 - Tags can also be configured in this manner. Substitution syntax **can be used to define configuration parameters for the PI Point**. 
 - Provides an easy and powerfully **declarative** way or managing PI Points.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-template-tag-creation.png)
 @snapend
 @snapend
@@ -227,13 +227,13 @@ Else NoOutput()
 
 ### Duration of Event Frames
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Event Frames can cause performance for the analysis service if they last longer than **2 weeks**.
 - Can set up an Event Frame search in AF to make finding these easier
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-eventframe-duration.png)
 @snapend
 @snapend
@@ -242,13 +242,13 @@ Else NoOutput()
 
 ### Duration of Event Frames
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - Event Frames can cause performance for the analysis service if they last longer than **2 weeks**.
 - Can set up an Event Frame search in AF to make finding these easier
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-eventframe-duration.png)
 @snapend
 @snapend
@@ -257,7 +257,7 @@ Else NoOutput()
 
 ### Use Notifications Conservatively
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - AF Notifications lose their effectiveness if they are triggered too frequently.
     - Depends on context, **but even 2x / week can be too much**.

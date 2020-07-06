@@ -6,7 +6,7 @@
 
 ### What is the PI System?
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 The PI System is a @css[green-emphasis](data infrastructure). It
 @ul[](false)
 - **collects** data,
@@ -18,102 +18,120 @@ The PI System is a @css[green-emphasis](data infrastructure). It
 in meaningful ways in order to support decision making.
 @snapend
 @snapend
-@snap[south]
-**Let's look at the parts**
+@snap[content flex-10 flex-center]
+@snap[flex-10 text-center]
+@css[green-emphasis](Let's look at the parts!)
 @snapend
+@snapend
+
 +++
 
 ### PI Data Archive
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 Historizes data in one single source of truth.
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets/img/overview-historize.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets/img/overview-historize.png)
+@snapend
 @snapend
 
 +++
 
 ### PI Interfaces
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 Collect data and sends it to the Data Archive
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets/img/overview-collect.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets/img/overview-collect.png)
+@snapend
 @snapend
 
 +++
 
 ### PI Asset Framework
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 **Contextualizes** PI Tags by organizing the assets they apply to in a hierarchy.
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets/img/overview-contextualize.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets/img/overview-contextualize.png)
+@snapend
 @snapend
 
 +++
 
 ### PI Asset Framework Analyses
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 Performs **data analytics** in real time on PI data.
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets/img/overview-analyze.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets/img/overview-analyze.png)
+@snapend
 @snapend
 
 +++
 
 ### PI Asset Framework Notifications
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 **Notifies** user via email text when certain events are spotted in the data.
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets/img/overview-notify.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets/img/overview-notify.png)
+@snapend
 @snapend
 
 +++
 
 ### PI Vision
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 **Visualizes** PI data through the web browser.
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets/img/overview-vision.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets/img/overview-vision.png)
 @snapend
-
+@snapend
 
 +++
 
 ### PI ProcessBook
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 **Visualizes** PI data through a desktop app.
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets\img\overview-processbook.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets\img\overview-processbook.png)
+@snapend
 @snapend
 
 +++
 
 ### PI DataLink
-@snap[content]
-@snap[content-10]
+@snap[content flex-10]
+@snap[flex-10]
 **Visualizes** PI data in Excel spreadsheets.
 @snapend
 @snapend
-@snap[text-center]
-![height=300](assets/img/overview-datalink.png)
+@snap[content]
+@snap[flex-10 text-center]
+![overview-component](assets/img/overview-datalink.png)
+@snapend
 @snapend

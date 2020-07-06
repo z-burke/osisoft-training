@@ -6,7 +6,7 @@
 
 ### Element Reference Types
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 Reference types allow for elements to exist in **more than one place in the hierarchy**:
 @ul[](false)
 - **Parent-child**: The same element can exist in multiple places. Will only be deleted when the last “strong” reference to it is deleted.
@@ -14,7 +14,7 @@ Reference types allow for elements to exist in **more than one place in the hier
 - **Weak**: Like a parent-child reference, but it cannot stand on its own. If stronger references are deleted, this referenced instance will be deleted as well.
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets\img\pse-element-references.png)
 @snapend
 @snapend
@@ -23,7 +23,7 @@ Reference types allow for elements to exist in **more than one place in the hier
 
 ### Element Reference Types
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 Reference types allow for elements to exist in **more than one place in the hierarchy**:
 @ul[](false)
 - A popular strategy is to use a combination of Parent-Child and Weak references.

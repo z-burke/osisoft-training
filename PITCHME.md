@@ -13,7 +13,7 @@ I see you!
 
 ### Objectives
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 By the end of this training session, you should:
 @ul[](false)
 - Have a general knowledge of the PI System 
@@ -27,7 +27,7 @@ By the end of this training session, you should:
 ### What We'll Cover
 
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[text-09](false)
 - PI System Overview
 - Installing Client Tools
@@ -36,7 +36,7 @@ By the end of this training session, you should:
 - Configuring AF Attributes
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 @ul[text-09](false)
 - Units of Measure in PI
 - Asset Framework Analytics
@@ -51,7 +51,7 @@ By the end of this training session, you should:
 
 ### What You'll Need
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - **Access to:**
     - PI Data Archive
@@ -95,4 +95,3 @@ By the end of this training session, you should:
 
 ---
 
-![](https://www.youtube.com/embed/0iO3Xu0lbTk)

@@ -9,13 +9,13 @@
 Asset framework organizes a collection of tags into a **hiearchy of assets**.
 @snapend
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - **Assets** are represented by **elements**.
 - **Data streams** (PI Tags) pertaining to those elements are represented by **attributes**.
 @ulend
 @snapend
-@snap[content-16]
+@snap[flex-16]
 ![](assets/img/element-to-attribute.png)
 @snapend
 @snapend
@@ -24,7 +24,7 @@ Asset framework organizes a collection of tags into a **hiearchy of assets**.
 
 ### PI System Explorer (SE)
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 PI System Explorer provides us a way to:
 @ul[](false)
 - View/modify AF Hierarchies
@@ -34,7 +34,7 @@ PI System Explorer provides us a way to:
 - ...and much more!
 @ulend
 @snapend
-@snap[content-10 text-center]
+@snap[flex-10 text-center]
 ![height=500](assets\img\pse-start-menu.png)
 @snapend
 @snapend
@@ -43,7 +43,7 @@ PI System Explorer provides us a way to:
 
 ### Connections to AF Servers and Data Archives
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 Two types of connections:
 <ul class style="list-style-type: none;">
 <li><img src="assets\img\icons\data-archive.png" style="margin: 0 10px 0 10px; height: 1em;" />Data Archive</li>
@@ -55,7 +55,7 @@ Each of these can have a status:
 <li><img src="assets\img\icons\default.png" style="margin: 0 10px 0 10px; height: 1em;" />Default</li>
 </ul>
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets/img/pse-server-connections.png)
 @snapend
 @snapend
@@ -64,7 +64,7 @@ Each of these can have a status:
 
 ### Adding an AF Server
 @snap[content]
-@snap[content-10 text-center]
+@snap[flex-10 text-center]
 ![height=450](assets/img/pse-server-connection-add.png)
 @css[text-09](*Put the name of your AF Server as "Host"*)
 @snapend
@@ -74,7 +74,7 @@ Each of these can have a status:
 
 ### Tabs in PI System Explorer
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[text-09](false)
 - **Elements**<br>Asset hierarchy
 - **Event Frames**<br>Recorded Event Frames
@@ -84,7 +84,7 @@ Each of these can have a status:
 - **Management**<br>List of AF Analyses
 @ulend
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets/img/pi-system-explorer-tabs.png)
 @snapend
 @snapend
@@ -93,7 +93,7 @@ Each of these can have a status:
 
 ### Asset Framework Databases
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - AF Databases provide **isolation between AF hierarchies**.
 - Can have multiple AF Databases on an individual AF Server.
@@ -102,7 +102,7 @@ Each of these can have a status:
     - UOM's
 @ulend
 @snapend
-@snap[content-10 flex-center-y]
+@snap[flex-10 flex-center-y]
 ![](assets/img/pse-databases.png)
 @snapend
 @snapend
@@ -111,12 +111,12 @@ Each of these can have a status:
 
 ### Asset Framework Elements
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 **AF Elements** can be thought of as a folder in which data streams can be grouped together.
 @snapend
 @snapend
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - **Assets** are often **Elements**<br>*i.e. pumps, compressors*
 - However, **groupings of assets** can be Elements as well
@@ -125,7 +125,7 @@ Each of these can have a status:
 - **Sub-components** of assets are sometimes Elements as well.<br>*i.e. pump motors*
 @ulend
 @snapend
-@snap[content-10 flex-center-y]
+@snap[flex-10 flex-center-y]
 ![](assets/img/pse-af-elements.png)
 @snapend
 @snapend
@@ -135,12 +135,12 @@ Each of these can have a status:
 
 ### Asset Framework Attributes
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 **AF Attributes** are the **data streams** that are associated with **AF Elements**.
 @snapend
 @snapend
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 @ul[](false)
 - These data streams are often **PI Points**, but they can also be things like:
     - Static **metadata**
@@ -149,7 +149,7 @@ Each of these can have a status:
 - Notice that AF Attributes can have **child Attributes** of their own.
 @ulend
 @snapend
-@snap[content-10 flex-center-y]
+@snap[flex-10 flex-center-y]
 ![](assets/img/pse-af-attributes.png)
 @snapend
 @snapend
@@ -158,12 +158,12 @@ Each of these can have a status:
 
 ### Setting a Query Time
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 Remember that PI Points contain timeseries data...
 ..but AF shows you a single value for attributes.
 You are seeing a **snapshot** of the data. Change your view by setting the **query time**.
 @snapend
-@snap[content-10]
+@snap[flex-10]
 ![](assets/img/pse-querytime.png)
 @snapend
 @snapend

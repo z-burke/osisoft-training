@@ -6,7 +6,7 @@
 
 ### Units of Measure in PI
 @snap[content]
-@snap[content-10]
+@snap[flex-10]
 UOM's can be defined in two places.
 @ul[](false)
 - On the tag

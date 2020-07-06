@@ -22,50 +22,35 @@ border: none;
     /* height: 70% !important; */
     /* padding-bottom: 0px !important; */
     /* max-height: 100%; */
-    /* margin-bottom: 100px !important; */
+    padding-bottom: 80px !important;
     /* padding-bottom: 100px !important; */
     /* align-items: center; */
     /* justify-content: flex-start !important; */
 }
 
-/* .flx {
-    flex: 0 0 auto;
-} */
-
-.flex-center-y {
-    /* align-items: center !important; */
+.flex-center {
     display: flex !important;
-    flex-direction: column;
     justify-content: center !important;
-}
-
-.flex-1 {
-    flex: 1;
+    align-items: center !important;
 }
 
 .content {
     display: flex !important;
-    /* flex: 1; */
-    /* align-items: center; */
 }
 
-/* .content * {
-    flex-shrign
-} */
-
-.content-05 { flex: 0.5; }
-.content-10 { flex: 1; }
-.content-11 { flex: 1.1; }
-.content-12 { flex: 1.2; }
-.content-13 { flex: 1.3; }
-.content-14 { flex: 1.4; }
-.content-15 { flex: 1.5; }
-.content-16 { flex: 1.6; }
-.content-17 { flex: 1.7; }
-.content-18 { flex: 1.8; }
-.content-19 { flex: 1.9; }
-.content-20 { flex: 2.0; }
-.content-30 { flex: 3.0; }
+.flex-05 { flex: 0.5; }
+.flex-10 { flex: 1; }
+.flex-11 { flex: 1.1; }
+.flex-12 { flex: 1.2; }
+.flex-13 { flex: 1.3; }
+.flex-14 { flex: 1.4; }
+.flex-15 { flex: 1.5; }
+.flex-16 { flex: 1.6; }
+.flex-17 { flex: 1.7; }
+.flex-18 { flex: 1.8; }
+.flex-19 { flex: 1.9; }
+.flex-20 { flex: 2.0; }
+.flex-30 { flex: 3.0; }
 
 div.content > div {
     margin-left:10px;
@@ -80,16 +65,13 @@ div.content > div:last-child {
     margin-left:0px;
 }
 
-/* .flex-footer {
-    flex: 0 1 content;
-} */
-
 
 /* Presentation overrides */
 
 .slides ul {
     /* line-height: 1.8 !important; */
     padding: 0.2em 0 0.4em 0em;
+    margin-bottom: 0.4em;
     /* font-size: 90% !important; */
 }
 
@@ -104,7 +86,7 @@ div.content > div:last-child {
 
 .slides h1, .slides h2, .slides h3, .slides h4 {
     font-weight: 100 !important;
-    margin: px 0 24px 0 !important;
+    margin: 6px 0 24px 0 !important;
 }
 
 /* section > h1, section > h2, section > h3, section > h4, section > h5 {
@@ -123,7 +105,7 @@ div.content > div:last-child {
 
 .green-emphasis {
     color: #99CC00;
-    font-weight: bolder;
+    font-weight: 700 !important;
 }
 
 .stretch {
@@ -132,3 +114,11 @@ div.content > div:last-child {
     width: 100% !important;
 }
 
+/* Specific */
+.overview-component {
+    /* position: relative;
+    bottom: 50px; */
+    height: 300px !important;
+    margin-bottom: 100px !important;
+    text-align: center !important;
+}
