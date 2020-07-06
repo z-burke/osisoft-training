@@ -4,6 +4,24 @@
 
 +++
 
+### Units of Measure in PI
+@snap[content]
+@snap[content-10]
+UOM's can be defined in two places.
+@ul[](false)
+- On the tag
+- On the attribute
+@ulend
+@snapend
+@snapend
+
+@snapend
+@snap[east span-45]
+![](assets\img\pse-uoms.png)
+@snapend
+
++++
+
 @snap[north-west]
 ### Units of Measure in PI
 @ul[span-50](false)

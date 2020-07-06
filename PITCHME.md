@@ -16,7 +16,7 @@ I see you!
 @snap[content-10]
 By the end of this training session, you should:
 @ul[](false)
-- Have a general knowledge of the PI System
+- Have a general knowledge of the PI System 
 - Be comfortable modifying asset hiearchies and analyses in PI Asset Framework
 - Understand best practices for managing the PI System in production
 @ulend
@@ -49,25 +49,31 @@ By the end of this training session, you should:
 
 ---
 
-### What We'll Cover2
-@snap[]
-![height=400 width=100%](assets\img\course-outline.png)
+### What You'll Need
+@snap[content]
+@snap[content-10]
+@ul[](false)
+- **Access to:**
+    - PI Data Archive
+    - PI Asset Framework
+    - PI Vision
+- **Software on your machine**
+    - PI System Management Tools
+    - PI System Explorer
+    - Modern Web Browser (Firefox / Edge / Chrome)
+- **Asset Based PI Example Kit**
+    - Pump Condition Based Maintenance Toolkit<br>https://pisquare.osisoft.com/community/all-things-pi/af-library/asset-based-pi-example-kits/pump-condition-based-maintenance-toolkit-af-asset-based-pi-example-kit 
+@ulend
 @snapend
-
----
-
-### How to Use This Course
-
-
----
-
-### Prerequisites
+@snapend
 
 ---?include=topics/pi-system-overview/PITCHME.md
 
 ---?include=topics/client-tools/PITCHME.md
 
 ---?include=topics\pi-points\PITCHME.md
+
+---?include=topics\time-in-pi\PITCHME.md
 
 ---?include=topics/pi-asset-framework-overview/PITCHME.md
 

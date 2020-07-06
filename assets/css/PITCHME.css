@@ -39,9 +39,13 @@ border: none;
     justify-content: center !important;
 }
 
+.flex-1 {
+    flex: 1;
+}
+
 .content {
     display: flex !important;
-    flex: 1;
+    /* flex: 1; */
     /* align-items: center; */
 }
 
@@ -94,9 +98,13 @@ div.content > div:last-child {
     font-size: 80% !important;
 }
 
+.slides li:last-child {
+    margin-bottom: 0;
+}
+
 .slides h1, .slides h2, .slides h3, .slides h4 {
     font-weight: 100 !important;
-    margin: 30px 0 30px 0 !important;
+    margin: px 0 24px 0 !important;
 }
 
 /* section > h1, section > h2, section > h3, section > h4, section > h5 {
