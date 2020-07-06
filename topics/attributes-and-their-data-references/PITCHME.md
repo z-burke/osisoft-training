@@ -31,7 +31,7 @@ Each attribute points to **1** data reference. There are **6 types**:
 @ulend
 @snapend
 @snap[south-east span-45]
-![](assets\img\pse-pi-point-data-reference.png)
+![](assets/img/pse-pi-point-data-reference.png)
 @snapend
 
 +++
@@ -45,7 +45,7 @@ Each attribute points to **1** data reference. There are **6 types**:
 @ulend
 @snapend
 @snap[east span-45]
-![](assets\img\pse-string-builder-data-reference.png)
+![](assets/img/pse-string-builder-data-reference.png)
 @snapend
 
 +++
@@ -59,7 +59,7 @@ Each attribute points to **1** data reference. There are **6 types**:
 @ulend
 @snapend
 @snap[east span-45]
-![](assets\img\pse-table-data-reference.png)
+![](assets/img/pse-table-data-reference.png)
 @snapend
 
 +++
@@ -72,7 +72,7 @@ Each attribute points to **1** data reference. There are **6 types**:
 @ulend
 @snapend
 @snap[east span-45]
-![](assets\img\pse-formula-data-reference.png)
+![](assets/img/pse-formula-data-reference.png)
 @snapend
 
 +++
@@ -86,7 +86,7 @@ Each attribute points to **1** data reference. There are **6 types**:
 @ulend
 @snapend
 @snap[east span-45]
-![](assets\img\pse-uri-data-reference.png)
+![](assets/img/pse-uri-data-reference.png)
 @snapend
 
 +++

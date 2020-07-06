@@ -15,7 +15,7 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-element-templates.png)
+![](assets/img/pse-element-templates.png)
 @snapend
 @snapend
 
@@ -33,7 +33,7 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-element-template-library.png)
+![](assets/img/pse-element-template-library.png)
 @snapend
 @snapend
 
@@ -48,7 +48,7 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-changing-element-template.png)
+![](assets/img/pse-changing-element-template.png)
 @snapend
 @snapend
 
@@ -63,7 +63,7 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-convert-element-to-template.png)
+![](assets/img/pse-convert-element-to-template.png)
 @snapend
 @snapend
 
@@ -85,7 +85,7 @@
 ### Substitution Syntax
 @snap[content]
 @snap[flex-10]
-![](assets\img\pse-substitution-syntax.png)
+![](assets/img/pse-substitution-syntax.png)
 @snapend
 @snapend
 
@@ -114,9 +114,9 @@
 |  %param% |     Consider expression as a substitution parameter    |      %Element% %Attribute%      |
 |     .    |                  Navigate a level down                 |     %@.\Element\|Attribute%     |
 |    ..    |                   Navigate a level up                  | %..\..\Element% %..\|Attribute% |
-|     \    |                  References an element                 |           %..\Element%          |
-|    \|    |                 References an attribute                |  %..\|Attribute% %@\|Attribute% |
-|     @    | References the value of the object instead of its name |       %@..\..\|Attribute%       |
+|     /    |                  References an element                 |           %..\Element%          |
+|    /|    |                 References an attribute                |  %..\|Attribute% %@\|Attribute% |
+|     @    | References the value of the object instead of its name |       %@....\|Attribute%       |
 *Italicized text should be replaced with appropriate text (element or attribute name)*
 @snapend
 @snapend
@@ -133,7 +133,7 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-derived-templates.png)
+![](assets/img/pse-derived-templates.png)
 @snapend
 @snapend
 
@@ -142,7 +142,7 @@
 ### Viewing Templates in Hierarchy Based on Inheritance
 @snap[content]
 @snap[flex-10]
-![](assets\img\pse-viewing-template-inheritance.png)
+![](assets/img/pse-viewing-template-inheritance.png)
 @snapend
 @snapend
 

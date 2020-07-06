@@ -15,7 +15,7 @@ Reference types allow for elements to exist in **more than one place in the hier
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-element-references.png)
+![](assets/img/pse-element-references.png)
 @snapend
 @snapend
 

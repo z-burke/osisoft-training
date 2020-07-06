@@ -17,7 +17,7 @@ UOM's can be defined in two places.
 
 @snapend
 @snap[east span-45]
-![](assets\img\pse-uoms.png)
+![](assets/img/pse-uoms.png)
 @snapend
 
 +++
@@ -33,5 +33,5 @@ UOM's can be defined in two places.
 @ulend
 @snapend
 @snap[east span-45]
-![](assets\img\pse-uoms.png)
+![](assets/img/pse-uoms.png)
 @snapend

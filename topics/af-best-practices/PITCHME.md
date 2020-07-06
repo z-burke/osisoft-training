@@ -44,7 +44,7 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-template-extensions.png)
+![](assets/img/pse-template-extensions.png)
 @snapend
 @snapend
 
@@ -93,7 +93,7 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-analysis-shared-variables.png)
+![](assets/img/pse-analysis-shared-variables.png)
 @snapend
 @snapend
 
@@ -170,7 +170,7 @@ Else NoOutput()
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-analysis-statistics.png)
+![](assets/img/pse-analysis-statistics.png)
 @snapend
 @snapend
 
@@ -185,7 +185,7 @@ Else NoOutput()
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-analysis-statistics.png)
+![](assets/img/pse-analysis-statistics.png)
 @snapend
 @snapend
 
@@ -203,7 +203,7 @@ Else NoOutput()
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-analysis-statistics-menu.png)
+![](assets/img/pse-analysis-statistics-menu.png)
 @snapend
 @snapend
 
@@ -219,7 +219,7 @@ Else NoOutput()
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-template-tag-creation.png)
+![](assets/img/pse-template-tag-creation.png)
 @snapend
 @snapend
 
@@ -234,7 +234,7 @@ Else NoOutput()
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-eventframe-duration.png)
+![](assets/img/pse-eventframe-duration.png)
 @snapend
 @snapend
 
@@ -249,7 +249,7 @@ Else NoOutput()
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-eventframe-duration.png)
+![](assets/img/pse-eventframe-duration.png)
 @snapend
 @snapend
 

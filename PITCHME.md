@@ -71,9 +71,9 @@ By the end of this training session, you should:
 
 ---?include=topics/client-tools/PITCHME.md
 
----?include=topics\pi-points\PITCHME.md
+---?include=topics/pi-points/PITCHME.md
 
----?include=topics\time-in-pi\PITCHME.md
+---?include=topics/time-in-pi/PITCHME.md
 
 ---?include=topics/pi-asset-framework-overview/PITCHME.md
 
@@ -91,7 +91,7 @@ By the end of this training session, you should:
 
 ---?include=topics/element-reference-types/PITCHME.md
 
----?include=topics\af-best-practices\PITCHME.md
+---?include=topics/af-best-practices/PITCHME.md
 
 ---
 

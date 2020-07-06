@@ -16,7 +16,7 @@
 @snapend
 @snap[content flex-10]
 @snap[flex-10]
-![](assets\img\data-archive-to-trend.png)
+![](assets/img/data-archive-to-trend.png)
 @snapend
 @snapend
 
@@ -34,7 +34,7 @@ PI System Management Tools provides us a way to:
 @ulend
 @snapend
 @snap[flex-10 flex-center]
-![height=450](assets\img\pi-smt-start.png)
+![height=450](assets/img/pi-smt-start.png)
 @snapend
 @snapend
 
@@ -43,7 +43,7 @@ PI System Management Tools provides us a way to:
 ### Connecting to a PI Data Archive
 @snap[content text-center]
 @snap[flex-10]
-![height=450](assets\img\smt-connect-data-archive.png)
+![height=450](assets/img/smt-connect-data-archive.png)
 @css[text-08](*Note: your PI Data Archive name will likely be different*)
 @snapend
 @snapend
@@ -53,7 +53,7 @@ PI System Management Tools provides us a way to:
 ### Adding a PI Data Archive
 @snap[content text-center]
 @snap[flex-10]
-![height=450](assets\img\smt-add-server.gif)
+![height=450](assets/img/smt-add-server.gif)
 @css[text-08](*Note: your PI Data Archive name will likely be different*)
 @snapend
 @snapend
@@ -72,7 +72,7 @@ Errors and status updates are typically shown here.
 @ulend
 @snapend
 @snap[flex-10 flex-center]
-![height=450](assets\img\pi-smt-session-log-error.png)
+![height=450](assets/img/pi-smt-session-log-error.png)
 @snapend
 @snapend
 +++
@@ -80,8 +80,8 @@ Errors and status updates are typically shown here.
 ### Exercise: Creating a PI Point
 @snap[content text-center]
 @snap[flex-10]
-![height=450](assets\img\smt-create-pi-point.gif)
-@css[text-08](*Name your PI Point **\<Your Initials\>.Pump01.Discharge Flow Rate**.*)
+![height=450](assets/img/smt-create-pi-point.gif)
+@css[text-08](*Name your PI Point **/<Your Initials/>.Pump01.Discharge Flow Rate**.*)
 @snapend
 @snapend
 
@@ -91,7 +91,7 @@ Errors and status updates are typically shown here.
 
 @snap[content]
 @snap[flex-10 text-center]
-![height=400](assets\img\smt-point-config.png)
+![height=400](assets/img/smt-point-config.png)
 The "Point Builder" menu we're in provides us several options for configuring PI Points.
 @snapend
 @snapend
@@ -102,7 +102,7 @@ The "Point Builder" menu we're in provides us several options for configuring PI
 
 @snap[content]
 @snap[flex-10 text-center]
-![height=200](assets\img\smt-point-config-general.png)
+![height=200](assets/img/smt-point-config-general.png)
 @snapend
 @snapend
 @ul[text-left text-09](false)
@@ -120,7 +120,7 @@ The "Point Builder" menu we're in provides us several options for configuring PI
 
 @snap[content]
 @snap[flex-10 text-center]
-![height=200](assets\img\smt-point-config-archive.png)
+![height=200](assets/img/smt-point-config-archive.png)
 @snapend
 @snapend
 @ul[text-left text-09](false)
@@ -156,7 +156,7 @@ Both exception reduce the data that needs to be stored in the Data Archive by st
 
 @snap[content]
 @snap[flex-10 text-center]
-![height=200](assets\img\smt-point-config-classic.png)
+![height=200](assets/img/smt-point-config-classic.png)
 @snapend
 @snapend
 Most of these depend on the PI Interface the PI Point is receiving from. But here what they commonly mean:
@@ -175,7 +175,7 @@ Most of these depend on the PI Interface the PI Point is receiving from. But her
 
 @snap[content]
 @snap[flex-10 text-center]
-![height=200](assets\img\smt-point-config-security.png)
+![height=200](assets/img/smt-point-config-security.png)
 @snapend
 @snapend
 @snap[content]
@@ -194,7 +194,7 @@ Two different security dimensions:
 ### Configuring PI Points: System
 @snap[content]
 @snap[flex-10 text-center]
-![height=200](assets\img\smt-point-config-system.png)
+![height=200](assets/img/smt-point-config-system.png)
 @snapend
 @snapend
 @snap[content]
@@ -215,7 +215,7 @@ Two different security dimensions:
 ### Searching for Tags in SMT
 @snap[content text-center]
 @snap[flex-10]
-![height=450](assets\img\smt-search-pi-points.gif)
+![height=450](assets/img/smt-search-pi-points.gif)
 @snapend
 @snapend
 
@@ -230,7 +230,7 @@ You can search based on several different criteria.
 - PI only provides **exact matches**.<br>Use "*****" as a wildcard character.
 @snapend
 @snap[flex-10]
-![](assets\img\pi-point-search-syntax.png)
+![](assets/img/pi-point-search-syntax.png)
 @snapend
 @snapend
 
@@ -252,7 +252,7 @@ You will likely **never** do this. Useful data generally comes through more stru
 ### Viewing and Modifying Historical Tag Data
 @snap[content text-center]
 @snap[flex-10]
-![height=450](assets\img\smt-modify-point-data.gif)
+![height=450](assets/img/smt-modify-point-data.gif)
 @snapend
 @snapend
 
@@ -261,6 +261,6 @@ You will likely **never** do this. Useful data generally comes through more stru
 ### Viewing Current Tag Data
 @snap[content text-center]
 @snap[flex-10]
-![height=450](assets\img\smt-view-current-values.gif)
+![height=450](assets/img/smt-view-current-values.gif)
 @snapend
 @snapend

@@ -35,7 +35,7 @@ PI System Explorer provides us a way to:
 @ulend
 @snapend
 @snap[flex-10 text-center]
-![height=500](assets\img\pse-start-menu.png)
+![height=500](assets/img/pse-start-menu.png)
 @snapend
 @snapend
 
@@ -46,13 +46,13 @@ PI System Explorer provides us a way to:
 @snap[flex-10]
 Two types of connections:
 <ul class style="list-style-type: none;">
-<li><img src="assets\img\icons\data-archive.png" style="margin: 0 10px 0 10px; height: 1em;" />Data Archive</li>
-<li><img src="assets\img\icons\af-server.png" style="margin: 0 10px 0 10px; height: 1em;" />AF Server</li>
+<li><img src="assets/img/icons/data-archive.png" style="margin: 0 10px 0 10px; height: 1em;" />Data Archive</li>
+<li><img src="assets/img/icons/af-server.png" style="margin: 0 10px 0 10px; height: 1em;" />AF Server</li>
 </ul>
 Each of these can have a status:
 <ul class style="list-style-type: none;">
-<li><img src="assets\img\icons\connected.png" style="margin: 0 10px 0 10px; height: 1em;" />Connected</li>
-<li><img src="assets\img\icons\default.png" style="margin: 0 10px 0 10px; height: 1em;" />Default</li>
+<li><img src="assets/img/icons/connected.png" style="margin: 0 10px 0 10px; height: 1em;" />Connected</li>
+<li><img src="assets/img/icons/default.png" style="margin: 0 10px 0 10px; height: 1em;" />Default</li>
 </ul>
 @snapend
 @snap[flex-10]

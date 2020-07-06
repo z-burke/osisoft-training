@@ -69,7 +69,7 @@ Analyses:
 @ulend
 @snapend
 @snap[flex-15 flex-center-y]
-![](assets\img\pse-analyses-types.png)
+![](assets/img/pse-analyses-types.png)
 @snapend
 @snapend
 
@@ -83,7 +83,7 @@ Can perform calculations whose results are **output to attributes**.
 @css[text-08]((Will write to a PI Point if the attribute has a PI Point Data Reference.))
 @snapend
 @snap[flex-10 flex-center-y]
-![](assets\img\pse-expressions.png)
+![](assets/img/pse-expressions.png)
 @snapend
 @snapend
 
@@ -133,7 +133,7 @@ All of the functions available available to use are listed in the panel at the b
 Also **provides descriptions** and **instructions for use**.
 @snapend
 @snap[flex-10 text-center]
-![](assets\img\pse-function-help.png)
+![](assets/img/pse-function-help.png)
 @snapend
 
 +++
@@ -149,7 +149,7 @@ The help panel also gives us a way of **finding references** to specific attribu
 @ulend
 @snapend
 @snap[flex-10 text-center]
-![](assets\img\pse-analysis-attribute-help.png)
+![](assets/img/pse-analysis-attribute-help.png)
 @snapend
 @snapend
 
@@ -168,7 +168,7 @@ The help panel also gives us a way of **finding references** to specific attribu
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-rollup.png)
+![](assets/img/pse-rollup.png)
 @snapend
 
 +++
@@ -184,7 +184,7 @@ The help panel also gives us a way of **finding references** to specific attribu
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-eventframes.png)
+![](assets/img/pse-eventframes.png)
 @snapend
 @snapend
 
@@ -197,7 +197,7 @@ Event frames start when a **Start Trigger** is **true** for a set period of time
 An End Trigger doesn't have to be defined...
 <br>
 @css[text-right](... the even frame will end when when the Start Trigger is **no longer true**.)
-![](assets\img\pse-eventframe-trigger.png)
+![](assets/img/pse-eventframe-trigger.png)
 
 +++
 
@@ -214,7 +214,7 @@ An End Trigger doesn't have to be defined...
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-eventframe-templates.png)
+![](assets/img/pse-eventframe-templates.png)
 @snapend
 @snapend
 
@@ -228,7 +228,7 @@ An End Trigger doesn't have to be defined...
 - Can perform searches to filter results.
 @snapend
 @snap[flex-12]
-![](assets\img\pse-eventframe-list.png)
+![](assets/img/pse-eventframe-list.png)
 @snapend
 @snapend
 
@@ -246,7 +246,7 @@ An End Trigger doesn't have to be defined...
 @snapend
 @snapend
 @snap[south]
-![](assets\img\pse-sqc.png)
+![](assets/img/pse-sqc.png)
 @snapend
 
 +++
@@ -262,7 +262,7 @@ An End Trigger doesn't have to be defined...
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-analysis-triggering.png)
+![](assets/img/pse-analysis-triggering.png)
 @snapend
 
 +++
@@ -277,7 +277,7 @@ An End Trigger doesn't have to be defined...
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-analysis-backfilling.png)
+![](assets/img/pse-analysis-backfilling.png)
 @snapend
 @snapend
 
@@ -293,7 +293,7 @@ An End Trigger doesn't have to be defined...
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-managing-analyses.png)
+![](assets/img/pse-managing-analyses.png)
 @snapend
 @snapend
 
@@ -310,7 +310,7 @@ An End Trigger doesn't have to be defined...
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-analysis-create-pi-point.png)
+![](assets/img/pse-analysis-create-pi-point.png)
 @snapend
 @snapend
 

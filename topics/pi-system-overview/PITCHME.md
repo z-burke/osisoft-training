@@ -118,7 +118,7 @@ Performs **data analytics** in real time on PI data.
 @snapend
 @snap[content]
 @snap[flex-10 text-center]
-![overview-component](assets\img\overview-processbook.png)
+![overview-component](assets/img/overview-processbook.png)
 @snapend
 @snapend
 

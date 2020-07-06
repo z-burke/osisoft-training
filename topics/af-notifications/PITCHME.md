@@ -16,6 +16,6 @@
 @ulend
 @snapend
 @snap[flex-10]
-![](assets\img\pse-notifications.png)
+![](assets/img/pse-notifications.png)
 @snapend
 @snapend

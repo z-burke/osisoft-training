@@ -15,7 +15,7 @@ Attributes carry **metadata** with them.
 @ulend
 @snapend
 @snap[east span-45]
-![](assets\img\pse-attribute-configuration.png)
+![](assets/img/pse-attribute-configuration.png)
 @snapend
 
 +++
@@ -31,7 +31,7 @@ Attributes carry **metadata** with them.
 @ulend
 @snapend
 @snap[east span-45]
-![](assets\img\pse-pi-point-data-reference-config.png)
+![](assets/img/pse-pi-point-data-reference-config.png)
 @snapend
 
 +++
@@ -45,7 +45,7 @@ This is the purpose of **value retrieval methods**: a basic form of calculation!
 @snapend
 @snapend
 @snap[east span-45]
-![height=400](assets\img\pse-pi-point-data-reference-config-value-retrieval.png)
+![height=400](assets/img/pse-pi-point-data-reference-config-value-retrieval.png)
 @snapend
 
 +++
@@ -59,5 +59,5 @@ Looks like text, but really stored as a number.
 @snapend
 @snapend
 @snap[east span-45]
-![height=400](assets\img\pse-enumeration-sets.png)
+![height=400](assets/img/pse-enumeration-sets.png)
 @snapend
