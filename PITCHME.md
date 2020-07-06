@@ -28,16 +28,16 @@ By the end of this training session, you should:
 
 @snap[content]
 @snap[flex-10]
-@ul[text-09](false)
+@ul[](false)
 - PI System Overview
-- Installing Client Tools
+- PI Points and Their Data
 - PI Asset Framework Overview
 - Attributes and Their Data References
 - Configuring AF Attributes
 @ulend
 @snapend
 @snap[flex-10]
-@ul[text-09](false)
+@ul[](false)
 - Units of Measure in PI
 - Asset Framework Analytics
 - Templates in Asset Framework
