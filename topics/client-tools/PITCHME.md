@@ -24,7 +24,7 @@ The software you'll use to use and manage data in PI.
 ### Client Tools for the PI System
 @snap[content flex-10]
 @snap[flex-10 flex-center]
-![](assets\img\client-tools.png)
+![](assets/img/client-tools.png)
 @snapend
 @snapend
 
