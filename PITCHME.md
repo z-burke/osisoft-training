@@ -78,3 +78,15 @@ By the end of this training session, you should:
 ---?include=topics/pi-asset-framework-overview/PITCHME.md
 
 ---?include=topics/attributes-and-their-data-references/PITCHME.md
+
+---?include=topics/configuring-af-attributes/PITCHME.md
+
+---?include=topics/units-of-measure-in-pi/PITCHME.md
+
+---?include=topics/calculations-in-pi/PITCHME.md
+
+---?include=topics/af-analytics/PITCHME.md
+
+---?include=topics/af-notifications/PITCHME.md
+
+---?include=topics/af-templates/PITCHME.md

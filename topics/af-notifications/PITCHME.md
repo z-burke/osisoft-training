@@ -5,7 +5,7 @@
 +++
 
 ### AF Notifications
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
 - AF Notifications send **alerts** for certain Event Frames via:
@@ -15,7 +15,7 @@
 - Requires an SMTP server
 @ulend
 @snapend
-@snap[flex-10]
+@snap[flex-14 flex-center]
 ![](assets/img/pse-notifications.png)
 @snapend
 @snapend

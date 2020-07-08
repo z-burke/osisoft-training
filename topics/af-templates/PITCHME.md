@@ -5,7 +5,7 @@
 +++
 
 ### AF Templates
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
 - Many assets are **instances of the same type** of equipment.
@@ -14,7 +14,7 @@
 - AF Templates allow us to **define all these attributes of the same type once**, then attach these attributes to each of these elements by associating them with a common template.
 @ulend
 @snapend
-@snap[flex-10]
+@snap[flex-10 flex-center]
 ![](assets/img/pse-element-templates.png)
 @snapend
 @snapend
@@ -22,7 +22,7 @@
 +++
 
 ### Defining AF Templates
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
 - AF Templates are defined in the **“Library”** tab of PSE.
@@ -32,7 +32,7 @@
     - Notification Rule Templates
 @ulend
 @snapend
-@snap[flex-10]
+@snap[flex-14 flex-center]
 ![](assets/img/pse-element-template-library.png)
 @snapend
 @snapend
@@ -40,14 +40,14 @@
 +++
 
 ### Associating an AF Element with a Template
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
 - Pre-existing elements can be associated with a template after they’ve already been created.
 - Careful! This will **delete the attributes already defined** for this element!
 @ulend
 @snapend
-@snap[flex-10]
+@snap[flex-14 flex-center]
 ![](assets/img/pse-changing-element-template.png)
 @snapend
 @snapend
@@ -55,14 +55,14 @@
 +++
 
 ### Creating a New Template from an Existing Element
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
 - You can also define templates **based on elements that have already been created**.
 - (Notice this can’t be done for Elements that are already associated with a template.)
 @ulend
 @snapend
-@snap[flex-10]
+@snap[flex-14 flex-center]
 ![](assets/img/pse-convert-element-to-template.png)
 @snapend
 @snapend
@@ -83,17 +83,17 @@
 +++
 
 ### Substitution Syntax
-@snap[content]
-@snap[flex-10]
-![](assets/img/pse-substitution-syntax.png)
+@snap[content flex-10]
+@snap[flex-10 flex-center]
+![height=400](assets/img/pse-substitution-syntax.png)
 @snapend
 @snapend
 
 +++
 
 ### Substitution Syntax - Example Parameters
-@snap[content]
-@snap[flex-10]
+@snap[content flex-10]
+@snap[flex-10 text-center text-09]
 |   Parameter   |                         Description                        |
 |:-------------:|:----------------------------------------------------------:|
 |  %Attribute%  |     Name of the attribute containing the data reference    |
@@ -108,7 +108,7 @@
 
 ### Substitution Syntax - Example Modifiers
 @snap[content]
-@snap[flex-10]
+@snap[flex-10 text-center text-09]
 | Modifier |                       Definition                       |             Examples            |
 |:--------:|:------------------------------------------------------:|:-------------------------------:|
 |  %param% |     Consider expression as a substitution parameter    |      %Element% %Attribute%      |
@@ -117,14 +117,17 @@
 |     /    |                  References an element                 |           %..\Element%          |
 |    /|    |                 References an attribute                |  %..\|Attribute% %@\|Attribute% |
 |     @    | References the value of the object instead of its name |       %@....\|Attribute%       |
+@snapend
+@snapend
+@snap[content]
+@snap[flex-10 text-08]
 *Italicized text should be replaced with appropriate text (element or attribute name)*
 @snapend
 @snapend
-
 +++
 
 ### Creating a New Template from an Existing Element
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
 - But what about cases where there are **subtypes** of different asset types (i.e. different types of compressors?)
@@ -132,16 +135,16 @@
 - Templates are typically organized so more **specific** types of an asset inherit from more **general** types.
 @ulend
 @snapend
-@snap[flex-10]
-![](assets/img/pse-derived-templates.png)
+@snap[flex-10 flex-center]
+![height=450](assets/img/pse-derived-templates.png)
 @snapend
 @snapend
 
 +++
 
 ### Viewing Templates in Hierarchy Based on Inheritance
-@snap[content]
-@snap[flex-10]
+@snap[content flex-10]
+@snap[flex-10 flex-center]
 ![](assets/img/pse-viewing-template-inheritance.png)
 @snapend
 @snapend

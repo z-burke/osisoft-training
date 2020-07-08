@@ -36,6 +36,38 @@ Each attribute points to **1** data reference. There are **6 types**:
 
 +++
 
+### Configuring PI Point Data References
+@snap[content]
+@snap[flex-10]
+@ul[](false)
+- Can refer to:
+    - PI Points directly
+    - PI Points possessed by other attributes
+- Source Units
+- Value retrieval
+@ulend
+@snapend
+@snap[flex-10]
+![](assets/img/pse-pi-point-data-reference-config.png)
+@snapend
+@snapend
+
++++
+
+### Configuring PI Point Data References
+@snap[content flex-10]
+@snap[flex-10]
+Each value within a PI Point is recorded at a **discrete** time.
+What happens if we query data in **between two recorded values**?
+This is the purpose of **value retrieval methods**: a basic form of calculation!
+@snapend
+@snap[flex-10]
+![height=400](assets/img/pse-pi-point-data-reference-config-value-retrieval.png)
+@snapend
+@snapend
+
++++
+
 @snap[north-west]
 ### String Builder Data Reference
 @ul[span-50](false)
