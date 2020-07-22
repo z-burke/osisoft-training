@@ -1,0 +1,12 @@
+Option	Description
+Average	Average over time range
+Count	Number of values recorded over time range or sum of event time duration (depending on *Calculation Basis*)
+Delta	Difference in value from end to start of time range
+End Time	Value at end of time range
+Maximum	Maximum value over time range
+Minimum	Minimum value over time range
+Population Standard Deviation	Population standard deviation over time range
+Range	Range of values (max - min) over time range
+Standard Deviation	Standard deviation over time range
+Start Time	Value at start of time range
+Total	Totalization over time range

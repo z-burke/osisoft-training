@@ -1,5 +1,5 @@
 @snap[west]
-## Asset Framework Templates
+## AF Element Templates
 @snapend
 
 +++
@@ -54,7 +54,27 @@
 
 +++
 
-### Creating a New Template from an Existing Element
+### Exercise: Creating an AF Element Template
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/pse-create-element-template.gif)
+@css[text-07]()
+@snapend
+@snapend
+
++++
+
+### Exercise: Associating an Element with a Template
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/pse-associate-element-with-template.gif)
+@css[text-07]()
+@snapend
+@snapend
+
++++
+
+### Converting an Element to a Template
 @snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
@@ -69,64 +89,76 @@
 
 +++
 
-### Substitution Syntax
-@snap[content]
+### Exercise: Converting an Element to a Template
+@snap[content flex-10 flex-center text-center]
 @snap[flex-10]
+![height=450](assets/img/pse-convert-element-to-template.gif)
+@css[text-07]()
+@snapend
+@snapend
+
++++
+
+### What Templates Control About Attributes
+@snap[content flex-10]
+@snap[flex-14]
+As soon as you apply a Template to an Element, you **cannot add new Attributes**.
+However, there are certain configuration items of template-defined Attributes you **can edit** at the Element level.   
 @ul[](false)
-- Our assets may have the same attributes defined for them, but this doesn’t mean we want them looking at the exact same data!
-- **Substitution syntax** allows for Attribute data references in the template to be specified as **variables**.
-- Elements inheriting from this template will **resolve** these variables with respect to their individual **contexts**.
+- **Description**
+- **Excluded** property<br>(used to mark Attributes defined by Template that don't exist for the Element)
+- **Value** (if not read from Data Reference)
+- **Data Reference**
 @ulend
 @snapend
-@snapend
-
-+++
-
-### Substitution Syntax
-@snap[content flex-10]
 @snap[flex-10 flex-center]
-![height=400](assets/img/pse-substitution-syntax.png)
+![height=450](assets/img/pse-template-defined-attribute.png)
 @snapend
 @snapend
 
 +++
 
-### Substitution Syntax - Example Parameters
+### Exercise: Setting Data Reference for a Template-Defined Attribute
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/pse-setting-attribute-template-data-reference.gif)
+@css[text-07]()
+@snapend
+@snapend
+
++++
+
+### Resetting Attributes to Templates
 @snap[content flex-10]
-@snap[flex-10 text-center text-09]
-|   Parameter   |                         Description                        |
-|:-------------:|:----------------------------------------------------------:|
-|  %Attribute%  |     Name of the attribute containing the data reference    |
-| %Description% | Description of the attribute containing the data reference |
-|   %Element%   |        Name of the element containing the attribute        |
-|    %Server%   |  Name of the default Data Archive (on the client machine)  |
-|   %Template   |   Name of the template the element directly inherits from  |
+@snap[flex-14]
+Some configuration items for Attributes (see previous slide) can be defined at the Template or Element level.
+@ul[](false)
+- The Element always **overrides** what's specified as the default in the Template.
+- Any deviations from the template can be reversed using the **reset to Template** command. 
+@ulend
+Be careful, this can cause data references set at the Element level to **disappear**!
+@css[text-08](*Consider keeping a backup using a tool like PI Builder.*)
+@snapend
+@snap[flex-10 flex-center]
+![](assets/img/pse-reset-to-template.png)
 @snapend
 @snapend
 
 +++
 
-### Substitution Syntax - Example Modifiers
-@snap[content]
-@snap[flex-10 text-center text-09]
-| Modifier |                       Definition                       |             Examples            |
-|:--------:|:------------------------------------------------------:|:-------------------------------:|
-|  %param% |     Consider expression as a substitution parameter    |      %Element% %Attribute%      |
-|     .    |                  Navigate a level down                 |     %@.\Element\|Attribute%     |
-|    ..    |                   Navigate a level up                  | %..\..\Element% %..\|Attribute% |
-|     /    |                  References an element                 |           %..\Element%          |
-|    /|    |                 References an attribute                |  %..\|Attribute% %@\|Attribute% |
-|     @    | References the value of the object instead of its name |       %@....\|Attribute%       |
+### Exercise: Resetting Attribute to Template
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/pse-reset-to-template.gif)
+@css[text-07]()
 @snapend
 @snapend
-@snap[content]
-@snap[flex-10 text-08]
-*Italicized text should be replaced with appropriate text (element or attribute name)*
-@snapend
-@snapend
+
++++
++++
 +++
 
-### Creating a New Template from an Existing Element
+### Derived Templates
 @snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
@@ -168,3 +200,8 @@
 @ulend
 @snapend
 @snapend
+
+
+### NEVER Allow Extensions to Templates
+
++++

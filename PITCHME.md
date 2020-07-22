@@ -83,10 +83,24 @@ By the end of this training session, you should:
 
 ---?include=topics/units-of-measure-in-pi/PITCHME.md
 
+---?include=topics/af-templates/PITCHME.md
+
+---?include=topics/substitution-syntax/PITCHME.md
+
 ---?include=topics/calculations-in-pi/PITCHME.md
+
+---?include=topics/value-retrieval-methods/PITCHME.md
 
 ---?include=topics/af-analytics/PITCHME.md
 
 ---?include=topics/af-notifications/PITCHME.md
 
----?include=topics/af-templates/PITCHME.md
+---?include=topics/element-reference-types/PITCHME.md
+
+---?include=topics/pi-vision/PITCHME.md
+
+---?include=topics/pi-datalink/PITCHME.md
+
+---?include=topics/pi-builder/PITCHME.md
+
+---?include=topics/af-best-practices/PITCHME.md

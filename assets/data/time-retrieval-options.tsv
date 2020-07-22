@@ -1,0 +1,8 @@
+Option	Description
+After	First recorded value after requested time
+At or After	Value recorded at requested time; same as **After** if that doesn't exist
+At or Before	Value recorded at requested time, but same as **Before** if that doesn't exist
+Automatic	**Interpolated** if Point is continuous; **At or Before** if Point is discrete
+Before	First recorded value before requested time
+Exact Time	Recorded value at time requested; error if none exists at that time
+Interpolated	Interpolated value for requested time; previous value if Point is discrete

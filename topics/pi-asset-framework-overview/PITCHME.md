@@ -187,17 +187,17 @@ PSE is not primarily a visualization tool, but this feature is useful!
 
 +++
 
-### Viewing PI Points in PSE
+### Viewing PI Points in System Explorer
 @snap[content flex-10]
 @snap[flex-10]
-PSE provides a way to search for PI Points.
+System Explorer provides a way to search for PI Points.
 From here you can see:
 @ul[](false)
 - Configuration information
 - Timeseries data and trends
 @ulend
 @snapend
-@snap[flex-10 flex-center]
+@snap[flex-14 flex-center]
 ![](assets/img/pse-tag-search.png)
 @snapend
 @snapend
@@ -250,14 +250,25 @@ With many people touching the same AF Database, how do we prevent them from maki
 
 +++
 
+### Exercise: Create Your Own Pump Station Element
+@snap[content flex-10]
+@snap[flex-10 flex-center text-center]
+![]()
+@css[text-08](Give your pump station a **unique** name.<br>Call your pump **Pump01**.)
+@snapend
+@snapend
+
++++
+
 ### AF: More Than Just Organization
 @snap[content]
 @snap[flex-10]
 Asset Framework provides more than just organization:
-@ul[](false)
+@ul[text-10](false)
 - Allows for **inclusion of metadata** for assets and their data.
 - Coupled with an **analysis engine** for performing calculations on attribute data.
 - Allows for connecting **more than just tag data** into PI (i.e. SQL data)
+- AF hiearchies and organizational features (i.e. templates) can be used by **PI Vision** and other **integrations**.
 @ulend
 @snapend
 @snapend

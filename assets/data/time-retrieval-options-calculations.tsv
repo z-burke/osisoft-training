@@ -1,0 +1,4 @@
+Option	Description
+Not Supported	Error if client sends time instead of time range
+Time Range	Default time range to use if client sends time instead of time range
+Time Range Override	Time range that always overrides time range specified by client application (can configure dynamically using substitution syntax)

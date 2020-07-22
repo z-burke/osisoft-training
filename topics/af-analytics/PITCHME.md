@@ -5,20 +5,20 @@
 +++
 
 ### PI AF Analyses
-@snap[midpoint span-100 text]
-<br>
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
 AF Analyses allows us to calculate **strategic data** in real-time.
 <br>
 It can store the results of these calculations in **PI Points** right alongside operational data.
 @snapend
-
+@snapend
 +++
 
 ### Analyses vs. Forumulas
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 Analyses:
-@ul[](false)
+@ul[text-11](false)
 - provide a more **powerful syntax**.
 - have more powerful **tools for management**.
 - can be configured to run at set **intervals**.
@@ -31,7 +31,7 @@ Analyses:
 +++
 
 ### 4 Types of Analyses
-@snap[content]
+@snap[content flex-10]
 @snap[flex-10]
 @ul[](false)
 - Expressions
@@ -40,7 +40,7 @@ Analyses:
 - SQC
 @ulend
 @snapend
-@snap[flex-15 flex-center-y]
+@snap[flex-16 flex-center]
 ![](assets/img/pse-analyses-types.png)
 @snapend
 @snapend
@@ -51,11 +51,99 @@ Analyses:
 @snap[content]
 @snap[flex-10]
 Can perform calculations whose results are **output to attributes**.
-<br>
-@css[text-08]((Will write to a PI Point if the attribute has a PI Point Data Reference.))
+@ul[](false)
+- Can historize outputs (if output Attributes are configured to do so)
+- Utilizes an easy, Excel formula-like syntax
+- Includes a collection of powerful functions
 @snapend
-@snap[flex-10 flex-center-y]
+@snap[flex-10 flex-center]
 ![](assets/img/pse-expressions.png)
+@snapend
+@snapend
+
++++
+
+### Rollups
+@snap[content flex-10]
+@snap[flex-10]
+Can perform calculations on a **variable number of child elements** such as:
+@ul[](false)
+- Sum
+- Average
+- Min/Max
+Like expressions, rollups can output their results to PI Points (via Attributes mapped to them).
+@ulend
+@snapend
+@snap[flex-14 flex-center]
+![](assets/img/pse-rollup.png)
+@snapend
+
++++
+
+### Event Frames
+
+@snap[content flex-center]
+@snap[flex-10]
+Provide a way to **“bookmark”** interesting points of time (events).
+@ul[](false)
+- Are generated based on a defined set of **triggers**.
+- Can collect Attributes of interest using Event Frame Templates.
+@ulend
+@snapend
+@snap[flex-14 flex-center]
+![](assets/img/pse-eventframes.png)
+@snapend
+@snapend
+
++++
+
+### SQC (Statistical Quality Control)
+@snap[content]
+@snap[flex-10]
+Defines allowable **deviances** from a desired **operating range** of an attribute.
+These can be recorded to:
+@ul[](false)
+- Event Frames
+- PI Points (via Attribute mappings)
+@ulend
+@snapend
+@snap[flex-14 flex-center]
+![](assets/img/pse-sqc.png)
+@snapend
+@snapend
+@snap[content]
+@snap[flex-10 text-center]
+These are less commonly used and therefore **will not be covered** in this course.
+@snapend
+@snapend
+
++++
+
+### How Expression Analyses are Structured
+@snap[content]
+@snap[flex-10]
+Each Analysis of an **expression** type:
+@ol[](false)
+1. Can consist of **several** expressions:
+    1. Each outputs to a variable accessible to other expressions with the Analysis
+    1. Variables can be mapped to output Attributes
+1. Is **started/stopped** as a unit
+1. Collectively runs at a configurable **frequency**
+@olend
+@ulend
+@snapend
+@snap[flex-10 flex-center]
+![](assets/img/pse-expression.png)
+@snapend
+@snapend
+
++++
+
+### Exercise: Creating an Analysis Expression
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/pse-creating-analysis-expression.gif)
+@css[text-07](Every 5 minutes, this analysis will generate a random value between -20 and 30 and another that is always 2 more than that one.)
 @snapend
 @snapend
 
@@ -73,9 +161,11 @@ Int('*'- ParseTime(Concat("T +",Hour('*'),"h")))/60
         else RawLevel)
 ```
 <br>
-"..." will evaluate to a string.
+**Int** is a function (along with others like **ParseTime** and **Concat**)
 <br>
-'...' is a reference to an attribute or a point in time.
+**"..."** will evaluate to a string.
+<br>
+**'...'** is a reference to an attribute or a point in time.
 
 +++
 
@@ -93,19 +183,48 @@ Int('*'- ParseTime(Concat("T +",Hour('*'),"h")))/60
 - **TagAvg:** Find the time-weighted average of values for an attribute during a specified time range.
 - **TagTot:** Find the totalized value (time integral) of a specified time range.
 - **TagVal:** Return the value of an attribute at a specified time.
-- *Also comes with many useful functions for steam!*
+- *Also comes with useful functions for steam!*
 
 +++
 
-### Expressions Included Function Help
+### Expressions: Function Help
 @snap[content]
 @snap[flex-10]
-All of the functions available available to use are listed in the panel at the bottom-right hand corner of the screen.
-<br>
-Also **provides descriptions** and **instructions for use**.
+AF provides two sources of help for using Expressions:
+@ul[](false)
+- In the **Functions** panel in the bottom right hand corner.
+- As **pop-up dialogues** that appear in real-time as expressions are being written (similar to Intellisense)
+@ulend
+Both of these provide function **descriptions** and **instructions for use**.
 @snapend
 @snap[flex-10 text-center]
 ![](assets/img/pse-function-help.png)
+@snapend
+
++++
+
+### Evaluating Expressions
+@snap[content flex-10]
+@snap[flex-10]
+The **Evaluate** button provides a way for us to preview what the output(s) of our analysis will be.
+@ol[](false)
+1. Select an **Example Element**
+1. Click the **Evaluate** button
+1. An output value will appear for each expression
+@olend
+@snapend
+@snap[flex-14 flex-center]
+![](assets/img/pse-analysis-expression-evaluate.png)
+@snapend
+
++++
+
+### Exercise: Evaluating an Expression
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/pse-evaluating-analysis-expression.gif)
+@css[text-07]()
+@snapend
 @snapend
 
 +++
@@ -127,36 +246,11 @@ The help panel also gives us a way of **finding references** to specific attribu
 
 +++
 
-### Rollups
-@snap[content flex-10]
+### Exercise: Attribute as an Expression Input
+@snap[content flex-10 flex-center text-center]
 @snap[flex-10]
-@ul[](false)
-- Rollups perform calculations on a **variable number of child elements** such as:
-    - Sum
-    - Average
-    - Min/Max
-- References the same attribute for each child.
-- Like expressions, outputs results to AF Attribute.
-@ulend
-@snapend
-@snap[flex-14 flex-center]
-![](assets/img/pse-rollup.png)
-@snapend
-
-+++
-
-### Event Frames
-
-@snap[content flex-center]
-@snap[flex-10]
-@ul[](false)
-- Event Frames provide a way to **“bookmark”** interesting points of time (events).
-- Are generated based on a defined set of **triggers**.
-- Can collect attributes of interest using Event Frame Templates.
-@ulend
-@snapend
-@snap[flex-14 flex-center]
-![](assets/img/pse-eventframes.png)
+![height=450](assets/img/pse-analysis-expression-input-attribute.gif)
+@css[text-07]()
 @snapend
 @snapend
 
@@ -210,23 +304,6 @@ An End Trigger doesn't have to be defined...
 @snapend
 @snap[flex-14 flex-center]
 ![](assets/img/pse-eventframe-list.png)
-@snapend
-@snapend
-
-+++
-
-### SQC (Statistical Quality Control)
-@snap[content flex-10]
-@snap[flex-10]
-@ul[](false)
-- SQC defines allowable **deviances** from a desired **operating range** of an attribute.
-- Deviances can be recorded to:
-    - Event Frames
-    - AF Attributes
-@ulend
-@snapend
-@snap[flex-14 flex-center]
-![](assets/img/pse-sqc.png)
 @snapend
 @snapend
 
@@ -293,6 +370,12 @@ An End Trigger doesn't have to be defined...
 ![height=500](assets/img/pse-analysis-create-pi-point.png)
 @snapend
 @snapend
+
++++
+
+### Analyses and Templates
+- Consider leaving Analyses off until explicitly enabled (alllows for testing)
+- It's technically possible to create analyses at the Element level (instead of the Template). However, this is not recommended. If Elements of the same Template have the same Attributes, why not calculate the same thing?
 
 +++
 

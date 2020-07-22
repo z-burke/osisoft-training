@@ -61,9 +61,9 @@ Calculations in PI generally exist to generate @css[green-emphasis](strategic) d
 Grants control over how values are read from PI Points.
 @ul[](false)
 - Can be configured from the PI Point Data Reference settings menu.
-- Can select whether values are interpolated.
+- Can specify what to do if query time falls **between** recorded values:
 - Can also provide some basic averaging or totalizing.
-- Only reads from one PI Point at a time.
+- Only read from one PI Point at a time.
 @ulend
 @snapend
 @snap[flex-12 flex-center]
@@ -95,9 +95,10 @@ Create simple analytics from the Formula Data Reference settings menu.
 @snap[flex-10]
 Real-time calculation engine bundled with PI AF.
 @ul[](false)
-- Can configure calculations from within System Explorer.
-- Utilitzes and Excel formula-like syntax.
 - Can historize data to PI Points.
+- Utilitzes and Excel formula-like syntax.
+- Provides numerous functions.
+- Can schedule execution.
 @snapend
 @snap[flex-12 flex-center]
 ![](assets/img/af-analytics.png)

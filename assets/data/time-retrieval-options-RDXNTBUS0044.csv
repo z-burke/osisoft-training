@@ -1,0 +1,3 @@
+Option, Description
+After, First recorded value after requested time
+At or After, 'Same as After, but if no value exists it returns next recorded value if no value'
