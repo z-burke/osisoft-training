@@ -67,6 +67,20 @@ By the end of this training session, you should:
 @snapend
 @snapend
 
+---
+
+### An "Evergreen" Course
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+Want the most **up to date** and **feature-rich** version of this presentation? @css[green-emphasis](View it online!)
+<br><br>
+@snap[null text-12]
+[https://gitpitch.com/z-burke/osisoft-af-training](https://gitpitch.com/z-burke/osisoft-af-training)
+@snapend
+@css[text-08](password: topnotch)
+@snapend
+@snapend
+
 ---?include=topics/pi-system-overview/PITCHME.md
 
 ---?include=topics/client-tools/PITCHME.md
@@ -93,14 +107,15 @@ By the end of this training session, you should:
 
 ---?include=topics/af-analytics/PITCHME.md
 
+---?include=topics/af-analytics-expressions/PITCHME.md
+
+---?include=topics/af-analytics-rollups/PITCHME.md
+
+---?include=topics/af-analytics-eventframes/PITCHME.md
+
 ---?include=topics/af-notifications/PITCHME.md
 
 ---?include=topics/element-reference-types/PITCHME.md
 
----?include=topics/pi-vision/PITCHME.md
-
----?include=topics/pi-datalink/PITCHME.md
-
----?include=topics/pi-builder/PITCHME.md
 
 ---?include=topics/af-best-practices/PITCHME.md

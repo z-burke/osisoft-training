@@ -29,7 +29,7 @@ in meaningful ways in order to support decision making.
 ### PI Data Archive
 @snap[content flex-10]
 @snap[flex-10]
-Historizes data in one single source of truth.
+**Historizes** data in one single source of truth.
 @snapend
 @snapend
 @snap[content]
@@ -43,7 +43,7 @@ Historizes data in one single source of truth.
 ### PI Interfaces
 @snap[content flex-10]
 @snap[flex-10]
-Collect data and sends it to the Data Archive
+**Collect** data and sends it to the Data Archive.
 @snapend
 @snapend
 @snap[content]
@@ -71,7 +71,7 @@ Collect data and sends it to the Data Archive
 ### PI Asset Framework Analyses
 @snap[content flex-10]
 @snap[flex-10]
-Performs **data analytics** in real time on PI data.
+Performs **analytics** in real time on PI data.
 @snapend
 @snapend
 @snap[content]
@@ -85,7 +85,7 @@ Performs **data analytics** in real time on PI data.
 ### PI Asset Framework Notifications
 @snap[content flex-10]
 @snap[flex-10]
-**Notifies** user via email text when certain events are spotted in the data.
+**Notifies** users via email or text when certain events are identified in the data.
 @snapend
 @snapend
 @snap[content]

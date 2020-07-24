@@ -8,7 +8,7 @@
 @snap[content]
 @snap[flex-10]
 Reference types allow for elements to exist in **more than one place in the hierarchy**:
-@ul[](false)
+@ul[text-09](false)
 - **Parent-child**: The same element can exist in multiple places. Will only be deleted when the last “strong” reference to it is deleted.
 - **Composition**: Binds the child to the parent, so if the parent is deleted the child is deleted as well (including all other references to it).
 - **Weak**: Like a parent-child reference, but it cannot stand on its own. If stronger references are deleted, this referenced instance will be deleted as well.

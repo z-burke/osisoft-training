@@ -12,7 +12,8 @@
     - Email
     - Text Messages
 - Will send alerts to specified **subscription groups**.
-- Requires an SMTP server
+    - Requires an SMTP server
+    - Messages will follow the specified **format**
 @ulend
 @snapend
 @snap[flex-14 flex-center]

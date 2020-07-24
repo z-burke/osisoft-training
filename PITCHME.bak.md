@@ -1,97 +1,131 @@
----
+MAIN
 
-@snap[west]
-## PI Asset Framework Training
-#### @css[green-emphasis](Koch Ag & Energy Solutions)
-#### @css[green-emphasis](Dodge City and Fort Dodge)
-@snapend
+---?include=topics/pi-vision/PITCHME.md
 
-Note: 
-I see you!
+---?include=topics/pi-datalink/PITCHME.md
 
----
+---?include=topics/pi-builder/PITCHME.md
 
-### Objectives
+
+
+ANALYTICS: EXPRESSION
+
+
++++
+
+### Triggering Analyses
 @snap[content]
 @snap[flex-10]
-By the end of this training session, you should:
-@ul[](false)
-- Have a general knowledge of the PI System 
-- Be comfortable modifying asset hiearchies and analyses in PI Asset Framework
-- Understand best practices for managing the PI System in production
-@ulend
+Triggering refers to how often an analysis calculates new data.
+This is a tradeoff between frequency of data updates and load on the Analysis service.
+There are two forms of triggering:
+- Event-Triggered: Calculates every time input Attribute(s) receive new data.
+- Periodic: Calculates at a set frequency (i.e. once every 5 minutes).
+@snapend
+@snap[flex-10 text-center]
+![](assets/img/.png)
 @snapend
 @snapend
----
 
-### What We'll Cover
++++
 
+### Exercise: Observing Effects of Different Triggers
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/.gif)
+@css[text-07]()
+@snapend
+@snapend
+
++++
+
+
+
+### Mapping Analyses to Attributes
 @snap[content]
 @snap[flex-10]
-@ul[text-09](false)
-- PI System Overview
-- Installing Client Tools
-- PI Asset Framework Overview
-- Attributes and Their Data References
-- Configuring AF Attributes
-@ulend
+
+For example, this can be combined with Digital States to only calculate expressions when certain prerequisites are met.
 @snapend
+@snap[flex-10 text-center]
+![](assets/img/.png)
+@snapend
+@snapend
+
++++
+
+### Exercise: Mapping Analyses to Attribute
+@snap[content flex-10 flex-center text-center]
 @snap[flex-10]
-@ul[text-09](false)
-- Units of Measure in PI
-- Asset Framework Analytics
-- Templates in Asset Framework
-- Element References
-- PI AF Best Practices
-@ulend
+![height=450](assets/img/.gif)
+@css[text-07]()
 @snapend
 @snapend
 
----
++++
 
-### What You'll Need
-@snap[content]
+### Exercise: Setting Parameters for Attribute Creation
+@snap[content flex-10 flex-center text-center]
 @snap[flex-10]
-@ul[](false)
-- **Access to:**
-    - PI Data Archive
-    - PI Asset Framework
-    - PI Vision
-- **Software on your machine**
-    - PI System Management Tools
-    - PI System Explorer
-    - Modern Web Browser (Firefox / Edge / Chrome)
-- **Asset Based PI Example Kit**
-    - Pump Condition Based Maintenance Toolkit<br>https://pisquare.osisoft.com/community/all-things-pi/af-library/asset-based-pi-example-kits/pump-condition-based-maintenance-toolkit-af-asset-based-pi-example-kit 
-@ulend
+![height=450](assets/img/.gif)
+@css[text-07](Note: the security settings required by your Analysis service are likely different.)
 @snapend
 @snapend
 
----?include=topics/pi-system-overview/PITCHME.md
++++
 
----?include=topics/client-tools/PITCHME.md
+### Exercise: Creating a PI Point from an Attribute
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/.gif)
+@css[text-07]()
+@snapend
+@snapend
 
----?include=topics/pi-points/PITCHME.md
++++
 
----?include=topics/time-in-pi/PITCHME.md
+### Exercise: Backfilling PI Points (via Element)
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/.gif)
+@css[text-07]()
+@snapend
+@snapend
 
----?include=topics/pi-asset-framework-overview/PITCHME.md
++++
 
----?include=topics/attributes-and-their-data-references/PITCHME.md
+### Exercise: Backfilling PI Points (via Management Tab)
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/.gif)
+@css[text-07]()
+@snapend
+@snapend
 
----?include=topics/configuring-af-attributes/PITCHME.md
 
----?include=topics/units-of-measure-in-pi/PITCHME.md
 
----?include=topics/af-analytics-introduction/PITCHME.md
++++
 
----?include=topics/af-notifications/PITCHME.md
 
----?include=topics/af-templates/PITCHME.md
 
----?include=topics/element-reference-types/PITCHME.md
+ANALYTICS: ROLLUPS
 
----?include=topics/af-best-practices/PITCHME.md
++++
 
----
+
+
+### Exercise: Creating a Rollup Analysis
+@snap[content flex-10 flex-center text-center]
+@snap[flex-10]
+![height=450](assets/img/.gif)
+@css[text-07]()
+@snapend
+@snapend
+
++++
+
+
+
+ANALYTICS: EVENT FRAMES
+
 
