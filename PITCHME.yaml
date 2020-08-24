@@ -5,12 +5,12 @@ theme-override   : assets/css/PITCHME.css
 published: true
 
 # Tokens
-confidential: topnotch
+# confidential: topnotch
 
 # Lock screen customizations.
 pro-background: none
 pro-background-color: "#3B0E68"
-pro-title: "OSIsoft Power User Training"
+pro-title: "OSIsoft User Training"
 pro-subtitle: "Training provided by Radix Engineering and Software"
 pro-contact: "Problems? Contact zachary.burke@radixeng.com"
 pro-logo: assets/img/radix-logo.png
