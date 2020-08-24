@@ -135,3 +135,13 @@ Performs **analytics** in real time on PI data.
 ![overview-component](assets/img/overview-datalink.png)
 @snapend
 @snapend
+
++++
+
+### Another View
+@snap[content flex-10 text-center]
+@snap[flex-10]
+![](assets/img/overview-osisoft.png)
+@snapend
+@snapend
+

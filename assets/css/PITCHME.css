@@ -68,7 +68,7 @@ div.content > div:last-child {
 
 /* Presentation overrides */
 
-.slides ul {
+.slides ul, .slides ol {
     /* line-height: 1.8 !important; */
     padding: 0.2em 0 0.4em 0em;
     margin-bottom: 0.4em;

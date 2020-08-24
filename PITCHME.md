@@ -1,13 +1,12 @@
 ---
 
 @snap[west]
-## PI Asset Framework Training
-#### @css[green-emphasis](Koch Ag & Energy Solutions)
-#### @css[green-emphasis](Dodge City and Fort Dodge)
+## PI Power User Training
+#### @css[green-emphasis](Presented by Radix Engineering and Software)
 @snapend
 
 Note: 
-I see you!
+Here's a note!
 
 ---
 
@@ -117,5 +116,12 @@ Want the most **up to date** and **feature-rich** version of this presentation? 
 
 ---?include=topics/element-reference-types/PITCHME.md
 
+---?include=topics/element-reference-types/PITCHME.md
+
+---?include=topics/pi-vision/PITCHME.md
+
+---?include=topics/pi-datalink/PITCHME.md
+
+---?include=topics/pi-builder/PITCHME.md
 
 ---?include=topics/af-best-practices/PITCHME.md

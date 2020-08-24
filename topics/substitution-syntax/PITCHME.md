@@ -74,13 +74,6 @@ Substitution syntax allows for some flexibility here.
 
 +++
 
-### Exercise: Use Substitution Syntax to Reference Another Attribute's Data
-TODO: Define what happened in the last slide.
-We are now referencing tags in the original Pump Station. Notice that each of our pumps looks at a different tag (via a different Attribute).
-We can use substitution syntax to easily add in more Attributes
-
-+++
-
 ### Exercise: Replicate More Attributes With Substitution Syntax
 @snap[content flex-10 flex-center text-center]
 @snap[flex-10]
@@ -93,4 +86,18 @@ We can use substitution syntax to easily add in more Attributes
 
 ### Where Substitution Syntax Can Be Used
 
-If you're having trouble, it's often easiest to test using String Builder.
+@snap[content]
+@snap[flex-10 text-12]
+@ul[](false)
+- AF Attribute Data References
+    - AF Templates
+    - AF Tables
+    - String Builder
+- AF EventFrames
+@ulend
+@snapend
+@snapend
+
+@snap[south text-center span-100]
+Tip: If you're having trouble, it's often easiest to test using<br>String Builder.
+@snapend
