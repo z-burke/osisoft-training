@@ -5,7 +5,7 @@ theme-override   : assets/css/PITCHME.css
 published: true
 
 # Tokens
-# confidential: topnotch
+confidential: topnotch
 
 # Lock screen customizations.
 pro-background: none
